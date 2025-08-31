@@ -1,0 +1,59 @@
+import random
+import json
+
+# Base vocabulary
+products = ["galleta", "agua", "jugo", "pan", "cerveza", "chocolate", "café", "plátano", "pizza", "empanada"]
+quantities = [str(i) for i in range(1, 21)] + ["uno", "dos", "tres", "cuatro", "cinco", "diez"]
+
+# Sentence templates
+templates = [
+    "Quiero {qty1} {prod1}",
+    "Me das {qty1} {prod1} y {qty2} {prod2}",
+    "Necesito {qty1} {prod1}",
+    "Pon {qty1} {prod1} y {qty2} {prod2}",
+    "Dame {qty1} {prod1}",
+    "Tráeme {qty1} {prod1} y {qty2} {prod2}",
+    "Voy a pedir {qty1} {prod1}",
+    "Quisiera {qty1} {prod1} y {qty2} {prod2}"
+]
+
+def generate_training_data(n_samples=50000):
+    data = []
+    for _ in range(n_samples):
+        template = random.choice(templates)
+        prod1, prod2 = random.sample(products, 2)
+        qty1, qty2 = random.sample(quantities, 2)
+
+        text = template.format(qty1=qty1, prod1=prod1, qty2=qty2, prod2=prod2)
+
+        # Build entity offsets
+        entities = []
+        # qty1
+        start = text.index(qty1)
+        end = start + len(qty1)
+        entities.append((start, end, "QUANTITY"))
+        # prod1
+        start = text.index(prod1)
+        end = start + len(prod1)
+        entities.append((start, end, "ITEM"))
+        # qty2 + prod2 if present
+        if "{qty2}" in template or "{prod2}" in template or " y " in text:
+            start = text.index(qty2)
+            end = start + len(qty2)
+            entities.append((start, end, "QUANTITY"))
+            start = text.index(prod2)
+            end = start + len(prod2)
+            entities.append((start, end, "ITEM"))
+
+        data.append((text, {"entities": entities}))
+    return data
+
+# Generate dataset
+train_data = generate_training_data(50000)
+
+# Optionally save to JSON for spaCy
+with open("spanish_orders_train.json", "w", encoding="utf-8") as f:
+    json.dump(train_data, f, ensure_ascii=False, indent=2)
+
+print(f"Generated {len(train_data)} training examples.")
+       

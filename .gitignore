@@ -1,0 +1,23 @@
+# Logs
+/logs/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Virtual environments
+/colai_env/
+/venv/
+/.venv/
+
+# Build / Packaging
+*.egg-info/
+
+# Local environment variables
+.env
+
+# Data (ignore all, unless you want to keep small sample)
+/data/
+
+# Misc project files
+code_text.txt
