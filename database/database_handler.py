@@ -2,6 +2,8 @@ import pandas as pd
 from config.configuration_script import load_env , load_logging
 import firebase_admin
 from firebase_admin import credentials, firestore
+import json
+
 
 
 
@@ -18,9 +20,23 @@ class DatabaseHandler:
         self.logging = load_logging()
         self.logging.info("Firebase connection initialized.")
 
-    def extract_collection(self, collection_name):
+        price_database = pd.read_csv("data/prod_precios.csv")
+        self.price_db = price_database.to_dict(orient="records")
+
+
+    def extract_collection(self, collection_name, local_db=True):
         """Extract a Firestore collection"""
-        try:
+
+        if local_db:
+            data = [
+                {**doc, "id": idx}  # Add a fake ID to match Firestore structure
+                for idx, doc in enumerate(self.price_db)
+            ]
+            self.logging.info(f"Extracted {len(data)} docs from local DB '{collection_name}'.")
+            return data
+
+
+        """try:
             
             docs = self.db.collection(collection_name).stream()  # fetch docs
             data = [
@@ -31,7 +47,7 @@ class DatabaseHandler:
             return data
         except Exception as e:
             self.logging.error(f"Error extracting collection '{collection_name}': {e}")
-            return []  
+            return []"""  
               
         
             

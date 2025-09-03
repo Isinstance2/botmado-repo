@@ -5,11 +5,12 @@ from data.train_data.nlp_train import TRAIN_DATA
 from spacy.training import Example
 from config.configuration_script import load_logging, load_env
 from database.database_handler import DatabaseHandler
-from fuzzywuzzy import process
+from fuzzywuzzy import process, fuzz
 import json
 from data.train_data.nlp_train import NUM_MAPPING
 dbhandler = DatabaseHandler()
 logging = load_logging(logfile="logs/nlp_model_training.log")
+import unicodedata
 
 
 
@@ -22,6 +23,11 @@ class NLPModel:
         except Exception as e:
             logging.error(f"Error loading model from {model_path}: {e}")
             self.nlp = spacy.blank("es_core_news_sm")
+
+
+    @staticmethod
+    def normalize_text(s: str) -> str:
+        return unicodedata.normalize("NFKC", s).strip().lower().replace("\u200b", "")
 
 
     def train_ner_model(self, model_path="models/customer_order_qty_model", TRAIN_DATA=TRAIN_DATA):
@@ -65,9 +71,12 @@ class NLPModel:
         return trained_nlp
     
     def parse_order(self, text: str):
+        order_lines = []
         orders = []
         temp_qty = None
         msg_to_send = ""
+        matches = []
+        score_cutoff = 65
 
         clean_msg = " ".join(text.split()).replace("\u200b", "").lower()
 
@@ -88,25 +97,27 @@ class NLPModel:
 
             logging.info(f"Parsed order: {orders} from text: {text}")
 
-            price_data = dbhandler.extract_collection("price_products")
-            price_lookup = {item['DETALLE'].strip().lower(): item for item in price_data}  # dict for O(1) lookup
+            price_data = dbhandler.extract_collection("price_products") 
+            price_lookup = {self.normalize_text(item['DETALLE']): item for item in price_data}  # dict for O(1) lookup
             detalle_list = list(price_lookup.keys())
 
             for qty, prod in orders:
                 qty = (NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty))
-                matched_item = process.extractOne(prod, detalle_list, limit=5, score_cutoff=70)
-                if matched_item:
-                    price = price_lookup.get(matched_item[0])
-                    if price:
-                        logging.info(f"Matched '{prod}' to '{matched_item[0]}' with price {price['COSTO']}")    
-                        total_item_price = qty * float(price['COSTO'])
-                        msg_to_send += f"{qty} x {matched_item[0]} - ${total_item_price:.2f}\n"
-                        print(msg_to_send, flush=True)
-                else:
-                    logging.warning(f"No match found for product '{prod}'")
-                    msg_to_send += f"{qty} x {prod} - Precio no disponible\n"
-
-            return matched_item, msg_to_send if msg_to_send else None
+                matched_item = process.extract(prod, detalle_list, limit=20, scorer=fuzz.token_sort_ratio)
+                matched_items = [item for item, score in matched_item if score >= score_cutoff]
+                print("DEBUGG:", matched_items, flush=True)
+                order_lines.append({
+                    "qty": qty,
+                    "original_product": prod,
+                    "matches": matched_items,
+                    "confirmed": None
+                })  
+                    
+            return {
+                "confirmation_needed": any(len(line['matches']) > 1 for line in order_lines),
+                "order_lines" : order_lines
+                
+            }
 
         except Exception as e:
             logging.error(f"Error parsing order from text '{text}': {e}")

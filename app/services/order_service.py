@@ -4,7 +4,8 @@ import random
 import string
 from datetime import date, datetime
 from models.nlp import NLPModel
-
+from fuzzywuzzy import process
+from data.train_data.nlp_train import NUM_MAPPING
 
 class OrderProcessor:
     COLMADERO_NUMBER = "whatsapp:+18297531173"
@@ -39,13 +40,6 @@ class OrderProcessor:
                 except Exception as e:
                     print("Twilio send error to customer:", e)
                 
-                msg_to_send = self.nlpmodel.parse_order(message)
-                if msg_to_send:
-                    try:
-                        send_whatsapp(user_number, msg_to_send)
-                        print(f"Sent NLP response to customer: {msg_to_send}")
-                    except Exception as e:
-                        print("Twilio send error for NLP response:", e)    
 
             # Save order to Firebase
             reference_num = self.generate_order_id()
@@ -54,7 +48,7 @@ class OrderProcessor:
                 'date': self.today,
                 'hora': datetime.now().strftime("%H:%M:%S"),
                 'user_number': user_number,
-                'message': message,
+                'message': "; ".join(f"{qty} {product}" for qty, product in message),
                 'status': 'received'
             }
             try:
@@ -68,3 +62,41 @@ class OrderProcessor:
 
         # Twilio webhook expects a response
         return "OK"
+    
+    def price_lookup(self, lst: list):
+        msg_to_send = ""
+        updated_order = []
+
+        price_data = self.dbHandler.extract_collection("price_products")
+        price_lookup = {item['DETALLE'].strip().lower(): item for item in price_data}
+        detalle_list = list(price_lookup.keys())  
+
+        for qty, prod in lst:
+            qty = NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty)
+
+            # Fuzzy match
+            match_item = process.extractOne(prod, detalle_list, score_cutoff=70)
+            if not match_item:
+                match_item = ["Producto desconocido"]
+
+            price_info = price_lookup.get(match_item[0])
+            prod_price = float(price_info['COSTO']) if price_info else 0
+
+            updated_order.append({
+                "qty": qty,
+                "product": prod,
+                "price": prod_price
+            })
+
+            # Add to message immediately
+            total_item_price = qty * prod_price
+            if prod_price > 0:
+                msg_to_send += f"{qty} x {match_item[0]} = ${total_item_price:.2f}\n"
+            else:
+                msg_to_send += f"{qty} x {prod} | Precio no disponible\n"
+
+        # Sum all prices
+        all_prices = sum(item["price"] * item["qty"] for item in updated_order)
+
+        return msg_to_send, all_prices
+
