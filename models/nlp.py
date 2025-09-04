@@ -76,7 +76,7 @@ class NLPModel:
         temp_qty = None
         msg_to_send = ""
         matches = []
-        score_cutoff = 65
+        score_cutoff = 50
 
         clean_msg = " ".join(text.split()).replace("\u200b", "").lower()
 
@@ -98,18 +98,18 @@ class NLPModel:
             logging.info(f"Parsed order: {orders} from text: {text}")
 
             price_data = dbhandler.extract_collection("price_products") 
-            price_lookup = {self.normalize_text(item['DETALLE']): item for item in price_data}  # dict for O(1) lookup
+            price_lookup = {self.normalize_text(item['DETALLE']): item for item in price_data}  # dict lookup
             detalle_list = list(price_lookup.keys())
-
+            
+        
             for qty, prod in orders:
                 qty = (NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty))
                 matched_item = process.extract(prod, detalle_list, limit=20, scorer=fuzz.token_sort_ratio)
                 matched_items = [item for item, score in matched_item if score >= score_cutoff]
-                print("DEBUGG:", matched_items, flush=True)
                 order_lines.append({
                     "qty": qty,
                     "original_product": prod,
-                    "matches": matched_items,
+                    "matches": matched_items if matched_items else [prod],
                     "confirmed": None
                 })  
                     

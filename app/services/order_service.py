@@ -32,10 +32,11 @@ class OrderProcessor:
                 except Exception as e:
                     print("Twilio send error to colmadero:", e)
 
+                conf_msg = ", ".join([f"{qty} x {prod}" for qty, prod in message])
                 # Confirm to customer
-                confirmation = f"✅ Pedido recibido: {message}\nTu colmado está preparando tu orden."
+                confirmation = f"✅ Pedido recibido: {(conf_msg)}\n Tu colmado está preparando tu orden."
                 try:
-                    send_whatsapp(user_number, confirmation)
+                   # send_whatsapp(user_number, confirmation) ---removed to test simulation
                     print(f"Sent confirmation to customer: {confirmation}")
                 except Exception as e:
                     print("Twilio send error to customer:", e)
@@ -64,39 +65,44 @@ class OrderProcessor:
         return "OK"
     
     def price_lookup(self, lst: list):
-        msg_to_send = ""
-        updated_order = []
 
-        price_data = self.dbHandler.extract_collection("price_products")
-        price_lookup = {item['DETALLE'].strip().lower(): item for item in price_data}
-        detalle_list = list(price_lookup.keys())  
+        try:
+            msg_to_send = ""
+            updated_order = []
 
-        for qty, prod in lst:
-            qty = NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty)
+            price_data = self.dbHandler.extract_collection("price_products")
+            price_lookup = {item['DETALLE'].strip().lower(): item for item in price_data}
+            detalle_list = list(price_lookup.keys())  
 
-            # Fuzzy match
-            match_item = process.extractOne(prod, detalle_list, score_cutoff=70)
-            if not match_item:
-                match_item = ["Producto desconocido"]
+            for qty, prod in lst:
+                qty = NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty)
 
-            price_info = price_lookup.get(match_item[0])
-            prod_price = float(price_info['COSTO']) if price_info else 0
+                # Fuzzy match
+                match_item = process.extractOne(prod, detalle_list, score_cutoff=70)
+                if not match_item:
+                    match_item = ["Producto desconocido"]
 
-            updated_order.append({
-                "qty": qty,
-                "product": prod,
-                "price": prod_price
-            })
+                price_info = price_lookup.get(match_item[0])
+                prod_price = float(price_info['COSTO']) if price_info else 0
 
-            # Add to message immediately
-            total_item_price = qty * prod_price
-            if prod_price > 0:
-                msg_to_send += f"{qty} x {match_item[0]} = ${total_item_price:.2f}\n"
-            else:
-                msg_to_send += f"{qty} x {prod} | Precio no disponible\n"
+                updated_order.append({
+                    "qty": qty,
+                    "product": prod,
+                    "price": prod_price
+                })
 
-        # Sum all prices
-        all_prices = sum(item["price"] * item["qty"] for item in updated_order)
+                # Add to message immediately
+                total_item_price = qty * prod_price
+                if prod_price > 0:
+                    msg_to_send += f"{qty} x {match_item[0]} = ${total_item_price:.2f}\n"
+                else:
+                    msg_to_send += f"{qty} x {prod} | Precio no disponible\n"
 
-        return msg_to_send, all_prices
+            # Sum all prices
+            all_prices = sum(item["price"] * item["qty"] for item in updated_order)
+
+            return msg_to_send, all_prices
+        
+        except Exception as e:
+                print(f"Error matching order from text : {e}", flush=True)
 

@@ -39,3 +39,17 @@ def load_env(env_path:str, variable_name:str):
     except Exception as e:
         logging.error(f"Error loading environment variable '{variable_name}': {e}")
         return None
+    
+
+""" SIMULATOR CORE LOGIC HELPER"""
+
+def user_confirmation(from_number, user_state, nlp_response, order_lines, status="awaiting_confirmation") -> bool:
+    if nlp_response.get("confirmation_needed"):
+        user_state[from_number] = {
+            "status": status,
+            "order_lines": order_lines,
+            "current_index": 0
+        }
+        
+        return True
+    return False

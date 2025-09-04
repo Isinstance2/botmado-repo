@@ -7180,3 +7180,1035 @@ Por favor responde con el número correcto.
 2025-09-03 01:41:28,323 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 05:41:28 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf93db7a777af96b71f637a448ba0f7ca', 'Twilio-Request-Duration': '0.028', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 56bd743379a0b287df603f3674891192.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '-JhVIU13wcay74v1g0ht_ZyPE07cwNRSj2AhQBy9Ey75BZnIY8U31w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
 2025-09-03 01:41:28,883 - INFO - Order saved successfully.
 2025-09-03 01:41:28,884 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:15:24,011 - INFO - Firebase connection initialized.
+2025-09-03 16:15:24,425 - INFO - Firebase connection initialized.
+2025-09-03 16:15:24,713 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:15:30,957 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:15:30,957 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:15:38,077 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:15:38,093 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:15:38,093 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:18:00,461 - INFO - Firebase connection initialized.
+2025-09-03 16:18:00,823 - INFO - Firebase connection initialized.
+2025-09-03 16:18:01,097 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:18:04,773 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:18:04,773 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:18:06,980 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:18:07,000 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:18:07,001 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:18:07,043 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:18:07,044 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:18:07,044 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:18:07,109 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:18:07,109 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:18:07,109 - INFO - Headers:
+2025-09-03 16:18:07,109 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:18:07,109 - INFO - Accept : application/json
+2025-09-03 16:18:07,109 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:18:07,109 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:18:07,109 - INFO - Accept-Charset : utf-8
+2025-09-03 16:18:07,109 - INFO - -- END Twilio API Request --
+2025-09-03 16:18:07,464 - INFO - Response Status Code: 201
+2025-09-03 16:18:07,465 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:18:07 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe512fe6c1f773e85905d2a1bba3cabb7', 'Twilio-Request-Duration': '0.104', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 c7c3aaea7e512869ae99fe347cd57aa6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '1obSKQMq79Kgi8w95Du3phvDbET6ohclHdXVuo8AlItpBGmrERnQ5w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:18:07,465 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:18:07,466 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:18:07,466 - INFO - Headers:
+2025-09-03 16:18:07,466 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:18:07,466 - INFO - Accept : application/json
+2025-09-03 16:18:07,466 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:18:07,467 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:18:07,467 - INFO - Accept-Charset : utf-8
+2025-09-03 16:18:07,467 - INFO - -- END Twilio API Request --
+2025-09-03 16:18:07,558 - INFO - Response Status Code: 400
+2025-09-03 16:18:07,559 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:18:07 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf546ae535d7e2dffeb20112077a8d5b2', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 c7c3aaea7e512869ae99fe347cd57aa6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'QVVBUaD4cQ4DleVndKGdo0oFY3JZdpa0UhBMCP7rlTlllNUwriR0pg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:18:08,137 - INFO - Order saved successfully.
+2025-09-03 16:18:08,138 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:22:12,320 - INFO - Firebase connection initialized.
+2025-09-03 16:22:12,684 - INFO - Firebase connection initialized.
+2025-09-03 16:22:12,965 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:22:16,913 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:22:16,913 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:22:20,383 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:22:20,402 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:22:20,403 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:22:20,444 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:22:20,445 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:22:20,445 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:22:20,478 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:22:20,478 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:22:20,478 - INFO - Headers:
+2025-09-03 16:22:20,478 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:22:20,478 - INFO - Accept : application/json
+2025-09-03 16:22:20,478 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:22:20,478 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:22:20,478 - INFO - Accept-Charset : utf-8
+2025-09-03 16:22:20,478 - INFO - -- END Twilio API Request --
+2025-09-03 16:22:20,926 - INFO - Response Status Code: 201
+2025-09-03 16:22:20,926 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:22:20 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ901ca91426ae0f629c0c2dd45747874b', 'Twilio-Request-Duration': '0.108', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'WZMGchQlhkSwub8nlW-0WH8tODTcmTGJjDjkPfkGdk4dY2hxqm0cqA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:22:20,927 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:22:20,927 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:22:20,928 - INFO - Headers:
+2025-09-03 16:22:20,928 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:22:20,928 - INFO - Accept : application/json
+2025-09-03 16:22:20,928 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:22:20,928 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:22:20,929 - INFO - Accept-Charset : utf-8
+2025-09-03 16:22:20,929 - INFO - -- END Twilio API Request --
+2025-09-03 16:22:21,020 - INFO - Response Status Code: 400
+2025-09-03 16:22:21,020 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:22:20 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ068811f0210f34db6563f8a4cb87777a', 'Twilio-Request-Duration': '0.024', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'Te_viOaH8uuFzs1VkVg_EsReZLm9JrsxE9ttSVMqYN4HGh46TqhIGA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:22:21,617 - INFO - Order saved successfully.
+2025-09-03 16:22:21,618 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:23:34,030 - INFO - Firebase connection initialized.
+2025-09-03 16:23:34,391 - INFO - Firebase connection initialized.
+2025-09-03 16:23:34,667 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:23:38,970 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:23:38,971 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:23:41,162 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:23:41,180 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:23:41,182 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:23:41,224 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:23:41,225 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:23:41,225 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:23:41,257 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:23:41,257 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:23:41,257 - INFO - Headers:
+2025-09-03 16:23:41,257 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:23:41,257 - INFO - Accept : application/json
+2025-09-03 16:23:41,257 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:23:41,257 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:23:41,257 - INFO - Accept-Charset : utf-8
+2025-09-03 16:23:41,257 - INFO - -- END Twilio API Request --
+2025-09-03 16:23:41,636 - INFO - Response Status Code: 201
+2025-09-03 16:23:41,636 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:23:41 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0cd987fca9393be5e5f66b29e05d4ffa', 'Twilio-Request-Duration': '0.111', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 69320106282a517c291be6fd889fbe34.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '8Q4JbN5JRarvZN7SuoSMorcBLF0F0_hlQkxUt8_BNb_tMxrtn-62FQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:23:41,637 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:23:41,637 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:23:41,638 - INFO - Headers:
+2025-09-03 16:23:41,638 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:23:41,638 - INFO - Accept : application/json
+2025-09-03 16:23:41,638 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:23:41,638 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:23:41,639 - INFO - Accept-Charset : utf-8
+2025-09-03 16:23:41,639 - INFO - -- END Twilio API Request --
+2025-09-03 16:23:41,735 - INFO - Response Status Code: 400
+2025-09-03 16:23:41,735 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:23:41 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ35fded729fae6b6a4320e41b8d7e0c4e', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 69320106282a517c291be6fd889fbe34.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'vGaYSlwWb3rZu38WOWaU7I25TJa-ra0mbtTQXOr3I1NIyCkBB6h1pg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:23:42,493 - INFO - Order saved successfully.
+2025-09-03 16:23:42,494 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:25:48,835 - INFO - Firebase connection initialized.
+2025-09-03 16:25:49,199 - INFO - Firebase connection initialized.
+2025-09-03 16:25:49,476 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:25:53,300 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:25:53,300 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:25:56,037 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:25:56,055 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:25:56,057 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:25:56,091 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:25:56,091 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:25:56,091 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:25:56,124 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:25:56,124 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:25:56,124 - INFO - Headers:
+2025-09-03 16:25:56,124 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:25:56,124 - INFO - Accept : application/json
+2025-09-03 16:25:56,124 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:25:56,124 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:25:56,124 - INFO - Accept-Charset : utf-8
+2025-09-03 16:25:56,124 - INFO - -- END Twilio API Request --
+2025-09-03 16:25:56,486 - INFO - Response Status Code: 201
+2025-09-03 16:25:56,486 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:25:56 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb57fe8f6ae5c1e28a313a2a4faed1e91', 'Twilio-Request-Duration': '0.087', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'Pp0jRL_BstyXbOS49YQYs0XNHLBT0GYpE9-9UiuJNFslPlNcQPmJ8A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:25:56,487 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:25:56,487 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:25:56,488 - INFO - Headers:
+2025-09-03 16:25:56,488 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:25:56,488 - INFO - Accept : application/json
+2025-09-03 16:25:56,488 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:25:56,488 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:25:56,488 - INFO - Accept-Charset : utf-8
+2025-09-03 16:25:56,489 - INFO - -- END Twilio API Request --
+2025-09-03 16:25:56,574 - INFO - Response Status Code: 400
+2025-09-03 16:25:56,575 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:25:56 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7bf3004b0a437373163672d9791f41f1', 'Twilio-Request-Duration': '0.023', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'EGGHEhhif6qB3hfYoe05gnO9UPvDrCarJqF-eP_C-lTnf9k-8zxa-A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:25:57,157 - INFO - Order saved successfully.
+2025-09-03 16:25:57,157 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:27:50,045 - INFO - Firebase connection initialized.
+2025-09-03 16:27:50,412 - INFO - Firebase connection initialized.
+2025-09-03 16:27:50,694 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:27:54,316 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:27:54,316 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:27:58,140 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:27:58,160 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:27:58,164 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:27:58,202 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:27:58,202 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:27:58,203 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:27:58,235 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:27:58,235 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:27:58,235 - INFO - Headers:
+2025-09-03 16:27:58,235 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:27:58,236 - INFO - Accept : application/json
+2025-09-03 16:27:58,236 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:27:58,236 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:27:58,236 - INFO - Accept-Charset : utf-8
+2025-09-03 16:27:58,236 - INFO - -- END Twilio API Request --
+2025-09-03 16:27:58,592 - INFO - Response Status Code: 201
+2025-09-03 16:27:58,592 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:27:58 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ84749b969817f8ab32e3d8fe9371addd', 'Twilio-Request-Duration': '0.083', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 9408c960e7407a9ca4e017c067585f20.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'q4Gge7TqeyroOn1Uy_9M_5K5MC0LYqM2HvmqTb6wH_wNzn3kU66zqw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:27:58,593 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:27:58,593 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:27:58,593 - INFO - Headers:
+2025-09-03 16:27:58,594 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:27:58,594 - INFO - Accept : application/json
+2025-09-03 16:27:58,594 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:27:58,594 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:27:58,594 - INFO - Accept-Charset : utf-8
+2025-09-03 16:27:58,594 - INFO - -- END Twilio API Request --
+2025-09-03 16:27:58,686 - INFO - Response Status Code: 400
+2025-09-03 16:27:58,686 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:27:58 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ875239763c1f80b98b1126853735584e', 'Twilio-Request-Duration': '0.024', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 9408c960e7407a9ca4e017c067585f20.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'BLd4NphM7yaz_HPE6JElWdZQQ5NPuspiEvPM0okkI2LjT8gSGppM1Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:27:59,213 - INFO - Order saved successfully.
+2025-09-03 16:27:59,213 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:29:15,323 - INFO - Firebase connection initialized.
+2025-09-03 16:29:15,685 - INFO - Firebase connection initialized.
+2025-09-03 16:29:15,962 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:29:20,163 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:29:20,163 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:29:24,196 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:29:24,215 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:29:24,219 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:29:24,257 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:29:24,257 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:29:24,258 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:29:24,290 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:29:24,290 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:29:24,290 - INFO - Headers:
+2025-09-03 16:29:24,290 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:29:24,291 - INFO - Accept : application/json
+2025-09-03 16:29:24,291 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:29:24,291 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:29:24,291 - INFO - Accept-Charset : utf-8
+2025-09-03 16:29:24,291 - INFO - -- END Twilio API Request --
+2025-09-03 16:29:24,542 - INFO - Response Status Code: 429
+2025-09-03 16:29:24,542 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:29:24 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc13ca22000a09e83cf4a38bb1abb3385', 'Twilio-Request-Duration': '0.046', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 750553eaeb552ddccd3c10ebf28f44d2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'hGq6JzZp5DoZkhFdv4vbDGi4GQs6zg87i9VvZnZwbT_RNr0h-yB5Ww==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:29:24,543 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:29:24,543 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:29:24,543 - INFO - Headers:
+2025-09-03 16:29:24,543 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:29:24,543 - INFO - Accept : application/json
+2025-09-03 16:29:24,544 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:29:24,544 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:29:24,544 - INFO - Accept-Charset : utf-8
+2025-09-03 16:29:24,544 - INFO - -- END Twilio API Request --
+2025-09-03 16:29:24,647 - INFO - Response Status Code: 400
+2025-09-03 16:29:24,648 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:29:24 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ43bdcf7af4fc67678cddbbd63bbae34c', 'Twilio-Request-Duration': '0.040', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 750553eaeb552ddccd3c10ebf28f44d2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '3CHWUlqN0G-PVtgPjRwPVS3qAvaloT5ztLfSKgzXPEzEkzhe21RUxQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:29:25,451 - INFO - Order saved successfully.
+2025-09-03 16:29:25,451 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:32:15,760 - INFO - Firebase connection initialized.
+2025-09-03 16:32:16,135 - INFO - Firebase connection initialized.
+2025-09-03 16:32:16,424 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:32:20,217 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:32:20,217 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:32:24,554 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:32:24,573 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:32:24,577 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:32:24,618 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:32:24,618 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:32:24,618 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:32:24,651 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:32:24,651 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:32:24,651 - INFO - Headers:
+2025-09-03 16:32:24,651 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:32:24,651 - INFO - Accept : application/json
+2025-09-03 16:32:24,651 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:32:24,651 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:32:24,651 - INFO - Accept-Charset : utf-8
+2025-09-03 16:32:24,651 - INFO - -- END Twilio API Request --
+2025-09-03 16:32:25,026 - INFO - Response Status Code: 201
+2025-09-03 16:32:25,026 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:32:24 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd527783dbb28977cf72a23c8684ad0df', 'Twilio-Request-Duration': '0.100', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a05060f26fd3b70538b2c9e4b2ad4768.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'mLXPctToixK6aHe8chxbFw_YDVarsJ7nwdoFMKZ47PK4kFrF_JC8VA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:32:25,027 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:32:25,027 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:32:25,027 - INFO - Headers:
+2025-09-03 16:32:25,027 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:32:25,028 - INFO - Accept : application/json
+2025-09-03 16:32:25,028 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:32:25,028 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:32:25,028 - INFO - Accept-Charset : utf-8
+2025-09-03 16:32:25,028 - INFO - -- END Twilio API Request --
+2025-09-03 16:32:25,117 - INFO - Response Status Code: 400
+2025-09-03 16:32:25,118 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:32:25 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd222a37456e9a4d3b059ccaf65e63465', 'Twilio-Request-Duration': '0.022', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 a05060f26fd3b70538b2c9e4b2ad4768.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'xjsgXR2eD8f60EXZvlzRiQMvnRTrm1_h3CSq64BqWshLQ7jUnKR99Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:32:25,694 - INFO - Order saved successfully.
+2025-09-03 16:32:25,695 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:33:52,091 - INFO - Firebase connection initialized.
+2025-09-03 16:33:52,465 - INFO - Firebase connection initialized.
+2025-09-03 16:33:52,750 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:33:58,150 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:33:58,151 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:34:14,776 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:34:14,777 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:34:17,289 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:34:17,308 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:34:17,309 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:34:17,351 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:34:17,351 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:34:17,351 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:34:17,383 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:34:17,384 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:34:17,384 - INFO - Headers:
+2025-09-03 16:34:17,384 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:34:17,384 - INFO - Accept : application/json
+2025-09-03 16:34:17,384 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:34:17,384 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:34:17,384 - INFO - Accept-Charset : utf-8
+2025-09-03 16:34:17,384 - INFO - -- END Twilio API Request --
+2025-09-03 16:34:17,767 - INFO - Response Status Code: 201
+2025-09-03 16:34:17,768 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:34:17 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa1c91b732ca4934b9233454a6a7c38fc', 'Twilio-Request-Duration': '0.081', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 fda6d4fc7a6dc0bdea03753df57dbcaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'dl7YHfVspLRd6GjvAvA_LLYdGArxMbqniAYqcVp-4XctcvCTmr1fyQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:34:17,768 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:34:17,769 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:34:17,769 - INFO - Headers:
+2025-09-03 16:34:17,769 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:34:17,769 - INFO - Accept : application/json
+2025-09-03 16:34:17,769 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:34:17,770 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:34:17,770 - INFO - Accept-Charset : utf-8
+2025-09-03 16:34:17,770 - INFO - -- END Twilio API Request --
+2025-09-03 16:34:17,860 - INFO - Response Status Code: 400
+2025-09-03 16:34:17,860 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:34:17 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQaadced3f62bfb9a76a289a88968a7eaf', 'Twilio-Request-Duration': '0.024', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fda6d4fc7a6dc0bdea03753df57dbcaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'bYDTbbyNiofbGfWgBsUB-x4GQv5tPYcyHp1_fzTZnBP3cUirPeti-A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:34:18,451 - INFO - Order saved successfully.
+2025-09-03 16:34:18,451 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:35:15,920 - INFO - Firebase connection initialized.
+2025-09-03 16:35:31,297 - INFO - Firebase connection initialized.
+2025-09-03 16:35:31,665 - INFO - Firebase connection initialized.
+2025-09-03 16:35:31,944 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:35:40,084 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:35:40,085 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:35:42,230 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:35:42,249 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:35:42,254 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:35:42,288 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:35:42,289 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:35:42,289 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:35:42,321 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:35:42,321 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:35:42,321 - INFO - Headers:
+2025-09-03 16:35:42,321 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:35:42,321 - INFO - Accept : application/json
+2025-09-03 16:35:42,322 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:35:42,322 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:35:42,322 - INFO - Accept-Charset : utf-8
+2025-09-03 16:35:42,322 - INFO - -- END Twilio API Request --
+2025-09-03 16:35:42,621 - INFO - Response Status Code: 201
+2025-09-03 16:35:42,622 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:35:42 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ354aa625953845f6ec2ba9993b476291', 'Twilio-Request-Duration': '0.099', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a2069a81b67055e10acf42b84d994730.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'gSAE1WcSVnWaN8_j49LPx4pk7Z-2_4_CBJ6L6LdOV3fAa11dgGKToA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:35:42,622 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:35:42,623 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:35:42,623 - INFO - Headers:
+2025-09-03 16:35:42,623 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:35:42,623 - INFO - Accept : application/json
+2025-09-03 16:35:42,623 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:35:42,624 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:35:42,624 - INFO - Accept-Charset : utf-8
+2025-09-03 16:35:42,624 - INFO - -- END Twilio API Request --
+2025-09-03 16:35:42,753 - INFO - Response Status Code: 400
+2025-09-03 16:35:42,754 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:35:42 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc4cfacaa0c5a8643613a7d53b0524439', 'Twilio-Request-Duration': '0.060', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 a2069a81b67055e10acf42b84d994730.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'ii_xADOoR06TQt2brrilNgGM3MWBhUPwji9g7npxemMaS8MU9tFFNg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:35:43,352 - INFO - Order saved successfully.
+2025-09-03 16:35:43,352 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:36:20,012 - INFO - [User -> Bot 8297531173]: 1 cerveza y dos winasorb
+2025-09-03 16:36:20,012 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:36:24,283 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:36:24,283 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:36:29,804 - INFO - [User -> Bot 8297531173]: 1 cerveza y dos winasorb
+2025-09-03 16:36:29,811 - INFO - Parsed order: [('1', 'cerveza'), ('dos', 'winasorb')] from text: 1 cerveza y dos winasorb
+2025-09-03 16:36:29,812 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:36:29,855 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:36:29,856 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:36:29,856 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:36:29,856 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:36:29,856 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:36:29,856 - INFO - Headers:
+2025-09-03 16:36:29,856 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:36:29,856 - INFO - Accept : application/json
+2025-09-03 16:36:29,856 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:36:29,856 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:36:29,856 - INFO - Accept-Charset : utf-8
+2025-09-03 16:36:29,856 - INFO - -- END Twilio API Request --
+2025-09-03 16:36:30,052 - INFO - Response Status Code: 201
+2025-09-03 16:36:30,052 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:36:29 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ82f0fbf7699b47e4f912303adb8d821f', 'Twilio-Request-Duration': '0.097', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a2069a81b67055e10acf42b84d994730.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'X6Yt6ax_7W35RJiiYv0s7z69kMo2pxPtI0ADV6DMq6AcE-ZnmqUyQg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:36:30,053 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:36:30,053 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:36:30,053 - INFO - Headers:
+2025-09-03 16:36:30,054 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:36:30,054 - INFO - Accept : application/json
+2025-09-03 16:36:30,054 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:36:30,054 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:36:30,054 - INFO - Accept-Charset : utf-8
+2025-09-03 16:36:30,054 - INFO - -- END Twilio API Request --
+2025-09-03 16:36:30,145 - INFO - Response Status Code: 400
+2025-09-03 16:36:30,145 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:36:30 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0fc745c926835ffd576d6903d460e273', 'Twilio-Request-Duration': '0.021', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 a2069a81b67055e10acf42b84d994730.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'HOK9ogvbgWtSMDQb-jZq4xeylPgKSxbv2nwbSqZH_tdU2LDi6KP5Ew==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:36:30,293 - INFO - Order saved successfully.
+2025-09-03 16:36:30,294 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:42:01,669 - INFO - Firebase connection initialized.
+2025-09-03 16:42:02,032 - INFO - Firebase connection initialized.
+2025-09-03 16:42:02,310 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:42:08,280 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:42:08,280 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:42:11,208 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:42:11,226 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:42:11,228 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:42:11,270 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:42:11,270 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:42:11,271 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:42:11,304 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:42:11,304 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:42:11,304 - INFO - Headers:
+2025-09-03 16:42:11,304 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:42:11,304 - INFO - Accept : application/json
+2025-09-03 16:42:11,304 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:42:11,304 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:42:11,304 - INFO - Accept-Charset : utf-8
+2025-09-03 16:42:11,304 - INFO - -- END Twilio API Request --
+2025-09-03 16:42:11,668 - INFO - Response Status Code: 429
+2025-09-03 16:42:11,669 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:42:11 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ43df7aa6b5cac67d542692b0a3fbb66e', 'Twilio-Request-Duration': '0.052', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 85b3f738aabf0907196fd820c00a963c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'ui0xIkNVMCIbJeL-z62Y-oG7SRVRF-h5zAQcIqEftS_AkIyPFCRAtQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:42:11,669 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:42:11,669 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:42:11,670 - INFO - Headers:
+2025-09-03 16:42:11,670 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:42:11,670 - INFO - Accept : application/json
+2025-09-03 16:42:11,670 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:42:11,670 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:42:11,671 - INFO - Accept-Charset : utf-8
+2025-09-03 16:42:11,671 - INFO - -- END Twilio API Request --
+2025-09-03 16:42:11,765 - INFO - Response Status Code: 400
+2025-09-03 16:42:11,765 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:42:11 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQacafd6d9c8ed21d9cc19d32e89a8aa0b', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 85b3f738aabf0907196fd820c00a963c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'TRvco5a908Uxmo5qwZz9jIg2q749vApQjh8_5wxXynKqjCvQbew8hA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:42:12,389 - INFO - Order saved successfully.
+2025-09-03 16:42:12,390 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:53:28,688 - INFO - Firebase connection initialized.
+2025-09-03 16:53:29,052 - INFO - Firebase connection initialized.
+2025-09-03 16:53:29,329 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:53:33,103 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:53:33,104 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:53:35,999 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:53:36,018 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:53:36,019 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:53:36,063 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:53:36,064 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:53:36,064 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:53:36,095 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:53:36,095 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:53:36,096 - INFO - Headers:
+2025-09-03 16:53:36,096 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:53:36,096 - INFO - Accept : application/json
+2025-09-03 16:53:36,096 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:53:36,096 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:53:36,096 - INFO - Accept-Charset : utf-8
+2025-09-03 16:53:36,096 - INFO - -- END Twilio API Request --
+2025-09-03 16:53:36,369 - INFO - Response Status Code: 429
+2025-09-03 16:53:36,370 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:53:36 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ045922c95fbac2ceeaf019547a985e53', 'Twilio-Request-Duration': '0.046', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '8O4-1tzhIrLYfskaXN4yvyxVOhEhYYlUF88WrSt2-YNxqslka5S09A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:53:36,371 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:53:36,371 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:53:36,371 - INFO - Headers:
+2025-09-03 16:53:36,371 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:53:36,371 - INFO - Accept : application/json
+2025-09-03 16:53:36,371 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:53:36,372 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:53:36,372 - INFO - Accept-Charset : utf-8
+2025-09-03 16:53:36,372 - INFO - -- END Twilio API Request --
+2025-09-03 16:53:36,465 - INFO - Response Status Code: 400
+2025-09-03 16:53:36,465 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:53:36 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ95e246e6e0166c896236c7a15b5539ab', 'Twilio-Request-Duration': '0.022', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '8PUf6oDXH_9VdzNmN-YsE3yPgcdgdHpktME1VnGNbiJhMooXQ4Xl7A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:53:37,075 - INFO - Order saved successfully.
+2025-09-03 16:53:37,075 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:54:24,693 - INFO - Firebase connection initialized.
+2025-09-03 16:54:25,061 - INFO - Firebase connection initialized.
+2025-09-03 16:54:25,344 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:54:30,409 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:54:30,409 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:54:33,129 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:54:33,148 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:54:33,149 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:54:33,190 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:54:33,190 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:54:33,190 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:54:33,222 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:54:33,222 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:54:33,222 - INFO - Headers:
+2025-09-03 16:54:33,222 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:54:33,222 - INFO - Accept : application/json
+2025-09-03 16:54:33,222 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:54:33,222 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:54:33,222 - INFO - Accept-Charset : utf-8
+2025-09-03 16:54:33,222 - INFO - -- END Twilio API Request --
+2025-09-03 16:54:33,474 - INFO - Response Status Code: 429
+2025-09-03 16:54:33,474 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:54:33 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2b50628e937060f174f70b2a4044a7b9', 'Twilio-Request-Duration': '0.031', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 76f89193cc4d64efc6af9454a18729b0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'e0bYl1C7cEvL8Irkktc_rJ6pUQMvh8R0orKH5CLqYmO9fIiN_Xl3ZQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:54:33,475 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:54:33,475 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:54:33,475 - INFO - Headers:
+2025-09-03 16:54:33,476 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:54:33,476 - INFO - Accept : application/json
+2025-09-03 16:54:33,476 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:54:33,476 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:54:33,476 - INFO - Accept-Charset : utf-8
+2025-09-03 16:54:33,476 - INFO - -- END Twilio API Request --
+2025-09-03 16:54:33,569 - INFO - Response Status Code: 400
+2025-09-03 16:54:33,570 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:54:33 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ03e91bdfcfd31a4de172577559e6fe30', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 76f89193cc4d64efc6af9454a18729b0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'BiIYn82LZ0BWcUPLfKirL3n0W4TpHxdx-HT1duFO5druvmTaEs6_8Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:54:34,105 - INFO - Order saved successfully.
+2025-09-03 16:54:34,105 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 16:57:19,781 - INFO - Firebase connection initialized.
+2025-09-03 16:57:20,168 - INFO - Firebase connection initialized.
+2025-09-03 16:57:20,447 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 16:57:23,977 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 16:57:23,977 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 16:57:29,336 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 16:57:29,355 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 16:57:29,360 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:57:29,397 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 16:57:29,398 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 16:57:29,398 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 16:57:29,430 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 16:57:29,430 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 16:57:29,430 - INFO - Headers:
+2025-09-03 16:57:29,430 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 16:57:29,430 - INFO - Accept : application/json
+2025-09-03 16:57:29,430 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 16:57:29,430 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 16:57:29,431 - INFO - Accept-Charset : utf-8
+2025-09-03 16:57:29,431 - INFO - -- END Twilio API Request --
+2025-09-03 16:57:29,795 - INFO - Response Status Code: 429
+2025-09-03 16:57:29,795 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 20:57:29 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ384a3c4962c47f56526720144c0b3350', 'Twilio-Request-Duration': '0.036', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 633d8264d45ae687b494f2ccaaeb966a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '5cRmrG22pmEfumAypPjEzgEY4PoGtct2vScKn6YYmxtn_5bO5fCC3w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 16:57:30,521 - INFO - Order saved successfully.
+2025-09-03 16:57:30,521 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:00:07,712 - INFO - Firebase connection initialized.
+2025-09-03 17:00:08,073 - INFO - Firebase connection initialized.
+2025-09-03 17:00:08,350 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:00:12,410 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:00:12,410 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:00:14,793 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:00:14,812 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:00:14,817 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:00:14,855 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:00:14,856 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:00:14,856 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:00:14,887 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:00:14,888 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:00:14,888 - INFO - Headers:
+2025-09-03 17:00:14,888 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:00:14,888 - INFO - Accept : application/json
+2025-09-03 17:00:14,888 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:00:14,888 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:00:14,888 - INFO - Accept-Charset : utf-8
+2025-09-03 17:00:14,888 - INFO - -- END Twilio API Request --
+2025-09-03 17:00:15,369 - INFO - Response Status Code: 201
+2025-09-03 17:00:15,369 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:00:15 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQbcca7e40a8319dc01f5f4186d8370560', 'Twilio-Request-Duration': '0.145', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 928f1961c378066cb1011db467e62422.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'qzLObHY981MrN2jVFw-cThe8m7wzURobvNCtbvPTzjoYarE5uE_4gw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:00:15,908 - INFO - Order saved successfully.
+2025-09-03 17:00:15,908 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:00:47,927 - INFO - Firebase connection initialized.
+2025-09-03 17:00:48,286 - INFO - Firebase connection initialized.
+2025-09-03 17:00:48,563 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:00:52,614 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:00:52,615 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:00:56,342 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:00:56,351 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:00:56,352 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:00:56,352 - ERROR - Error parsing order from text '1 cerveza': cannot access local variable 'prod' where it is not associated with a value
+2025-09-03 17:00:56,374 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:00:56,374 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:00:56,374 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:00:56,408 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:00:56,408 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:00:56,408 - INFO - Headers:
+2025-09-03 17:00:56,408 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:00:56,408 - INFO - Accept : application/json
+2025-09-03 17:00:56,408 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:00:56,408 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:00:56,408 - INFO - Accept-Charset : utf-8
+2025-09-03 17:00:56,408 - INFO - -- END Twilio API Request --
+2025-09-03 17:00:56,826 - INFO - Response Status Code: 201
+2025-09-03 17:00:56,826 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '811', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:00:56 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ558645563b2632919897f76c51f2e7c5', 'Twilio-Request-Duration': '0.090', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'TCM-BSn7YWHoNUuRhwCJJl1y_zSarctsYrHTWPbef-nvfBinWX7nlg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:00:57,379 - INFO - Order saved successfully.
+2025-09-03 17:00:57,379 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:01:50,598 - INFO - Firebase connection initialized.
+2025-09-03 17:01:50,966 - INFO - Firebase connection initialized.
+2025-09-03 17:01:51,249 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:01:57,842 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:01:57,842 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:02:00,353 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:02:00,372 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:02:00,376 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:02:00,378 - ERROR - Error parsing order from text '1 cerveza': cannot access local variable 'prod' where it is not associated with a value
+2025-09-03 17:02:00,415 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:02:00,415 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:02:00,415 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:02:00,447 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:02:00,447 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:02:00,447 - INFO - Headers:
+2025-09-03 17:02:00,447 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:02:00,447 - INFO - Accept : application/json
+2025-09-03 17:02:00,447 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:02:00,447 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:02:00,448 - INFO - Accept-Charset : utf-8
+2025-09-03 17:02:00,448 - INFO - -- END Twilio API Request --
+2025-09-03 17:02:00,808 - INFO - Response Status Code: 429
+2025-09-03 17:02:00,808 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:02:00 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd61f9654470a01940f8889707dac8a50', 'Twilio-Request-Duration': '0.029', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'QBFzjEdOEWvpyqyBbQbGQAGBLLBgN11xsUxni2vKADLJ7NDUfeVqEw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:02:01,549 - INFO - Order saved successfully.
+2025-09-03 17:02:01,550 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:06:06,503 - INFO - Firebase connection initialized.
+2025-09-03 17:06:06,872 - INFO - Firebase connection initialized.
+2025-09-03 17:06:07,161 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:06:11,326 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:06:11,326 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:06:13,497 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:06:13,502 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:06:13,503 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:06:13,524 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:06:13,525 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:06:13,525 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:06:13,557 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:06:13,557 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:06:13,557 - INFO - Headers:
+2025-09-03 17:06:13,557 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:06:13,557 - INFO - Accept : application/json
+2025-09-03 17:06:13,557 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:06:13,557 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:06:13,557 - INFO - Accept-Charset : utf-8
+2025-09-03 17:06:13,557 - INFO - -- END Twilio API Request --
+2025-09-03 17:06:13,910 - INFO - Response Status Code: 429
+2025-09-03 17:06:13,911 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:06:14 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0aac6102626f56e12b4a848d77d6203b', 'Twilio-Request-Duration': '0.048', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 633d8264d45ae687b494f2ccaaeb966a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'pudOj1q2rE8Hp67JVFYn-_fBQAZzNmQhPuYux0jcGJe87rHMqtBRLw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:06:14,443 - INFO - Order saved successfully.
+2025-09-03 17:06:14,444 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:07:22,075 - INFO - Firebase connection initialized.
+2025-09-03 17:07:22,439 - INFO - Firebase connection initialized.
+2025-09-03 17:07:22,721 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:07:26,697 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:07:26,697 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:07:29,113 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:07:29,120 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:07:29,121 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:07:29,143 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:07:29,144 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:07:29,144 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:07:29,177 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:07:29,177 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:07:29,177 - INFO - Headers:
+2025-09-03 17:07:29,177 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:07:29,177 - INFO - Accept : application/json
+2025-09-03 17:07:29,177 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:07:29,177 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:07:29,177 - INFO - Accept-Charset : utf-8
+2025-09-03 17:07:29,177 - INFO - -- END Twilio API Request --
+2025-09-03 17:07:29,436 - INFO - Response Status Code: 429
+2025-09-03 17:07:29,437 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:07:29 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ938cb29ff649000d719f1cc73e892766', 'Twilio-Request-Duration': '0.030', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 b8193115c42ee992f512ee7ed859f1dc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'EQYyEsY1V7xH8z4ZcjOvXychWuSL7-Ixg4i4NMhdlHXOXU4kLVFudw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:07:30,019 - INFO - Order saved successfully.
+2025-09-03 17:07:30,019 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:08:01,746 - INFO - Firebase connection initialized.
+2025-09-03 17:08:02,111 - INFO - Firebase connection initialized.
+2025-09-03 17:08:02,388 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:08:07,110 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:08:07,110 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:08:09,685 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:08:09,704 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:08:09,709 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:08:09,747 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:08:09,748 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:08:09,748 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:08:09,779 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:08:09,779 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:08:09,779 - INFO - Headers:
+2025-09-03 17:08:09,779 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:08:09,779 - INFO - Accept : application/json
+2025-09-03 17:08:09,780 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:08:09,780 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:08:09,780 - INFO - Accept-Charset : utf-8
+2025-09-03 17:08:09,780 - INFO - -- END Twilio API Request --
+2025-09-03 17:08:10,050 - INFO - Response Status Code: 429
+2025-09-03 17:08:10,051 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:08:10 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ08b4af085832fb8e5de632c04d16a051', 'Twilio-Request-Duration': '0.038', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '7c8tCKD_nqZ4IyKPKoKDvFg0xYPVxyPC889QWB1nOaIjqmzXP9M4aw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:08:10,769 - INFO - Order saved successfully.
+2025-09-03 17:08:10,769 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:09:40,176 - INFO - Firebase connection initialized.
+2025-09-03 17:09:40,541 - INFO - Firebase connection initialized.
+2025-09-03 17:09:40,823 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:09:45,119 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:09:45,119 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:09:47,490 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:09:47,498 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:09:47,499 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:09:47,520 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:09:47,521 - INFO - [WhatsApp -> 8297531173]: 
+2025-09-03 17:09:47,521 - INFO - [WhatsApp -> 8297531173]: Precio total: 0
+2025-09-03 17:09:47,553 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:09:47,554 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:09:47,554 - INFO - Headers:
+2025-09-03 17:09:47,554 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:09:47,554 - INFO - Accept : application/json
+2025-09-03 17:09:47,554 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:09:47,554 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:09:47,554 - INFO - Accept-Charset : utf-8
+2025-09-03 17:09:47,554 - INFO - -- END Twilio API Request --
+2025-09-03 17:09:47,953 - INFO - Response Status Code: 429
+2025-09-03 17:09:47,954 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:09:48 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0c2f2a56bedb20b39a43e8edf146179e', 'Twilio-Request-Duration': '0.035', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 928f1961c378066cb1011db467e62422.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '1grjTQ00ZewGYChMMtUPKX2Z0p6zmm_5qI-zLzyoVMMJJzaoznBzkQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:09:48,444 - INFO - Order saved successfully.
+2025-09-03 17:09:48,445 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:11:45,990 - INFO - Firebase connection initialized.
+2025-09-03 17:11:46,357 - INFO - Firebase connection initialized.
+2025-09-03 17:11:46,637 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:11:51,919 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:11:51,919 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:11:54,960 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:11:54,975 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:11:54,976 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:11:54,998 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 17:11:59,442 - INFO - [User -> Bot 8297531173]: 5
+2025-09-03 17:11:59,444 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:11:59,625 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza miller 650ml = $135.00
+
+2025-09-03 17:11:59,625 - INFO - [WhatsApp -> 8297531173]: Precio total: 135.0
+2025-09-03 17:11:59,656 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:11:59,657 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:11:59,657 - INFO - Headers:
+2025-09-03 17:11:59,657 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:11:59,657 - INFO - Accept : application/json
+2025-09-03 17:11:59,657 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:11:59,657 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:11:59,657 - INFO - Accept-Charset : utf-8
+2025-09-03 17:11:59,657 - INFO - -- END Twilio API Request --
+2025-09-03 17:11:59,971 - INFO - Response Status Code: 429
+2025-09-03 17:11:59,971 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:11:59 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc35fdf23e568fdbc54903f54df81c635', 'Twilio-Request-Duration': '0.050', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fda6d4fc7a6dc0bdea03753df57dbcaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'sD3_ZVRR1I3sIrmIqLFxRJ_0lDiPVwqKKaSrbAhuieihzK1HuyDGYg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:12:00,505 - INFO - Order saved successfully.
+2025-09-03 17:12:00,506 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:43:44,658 - INFO - Firebase connection initialized.
+2025-09-03 17:43:45,030 - INFO - Firebase connection initialized.
+2025-09-03 17:43:45,309 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:44:07,433 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:44:07,434 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:44:22,713 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:44:22,721 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:44:22,721 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:44:22,742 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 17:44:25,625 - INFO - [User -> Bot 8297531173]: 5
+2025-09-03 17:44:25,626 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:44:25,808 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza miller 650ml = $135.00
+
+2025-09-03 17:44:25,808 - INFO - [WhatsApp -> 8297531173]: Precio total: 135.0
+2025-09-03 17:44:25,839 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:44:25,839 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:44:25,839 - INFO - Headers:
+2025-09-03 17:44:25,839 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:44:25,840 - INFO - Accept : application/json
+2025-09-03 17:44:25,840 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:44:25,840 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:44:25,840 - INFO - Accept-Charset : utf-8
+2025-09-03 17:44:25,840 - INFO - -- END Twilio API Request --
+2025-09-03 17:44:26,235 - INFO - Response Status Code: 429
+2025-09-03 17:44:26,235 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:44:26 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3d8cdd4e586225e82ab7692a720749c4', 'Twilio-Request-Duration': '0.054', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 750553eaeb552ddccd3c10ebf28f44d2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'KoIBx6edGZWuWTUZ4BVd3sdD5XE8nF8yvKHzxJ49h-txCtHCtrE5PQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:44:26,824 - INFO - Order saved successfully.
+2025-09-03 17:44:26,825 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:48:47,464 - INFO - Firebase connection initialized.
+2025-09-03 17:48:47,835 - INFO - Firebase connection initialized.
+2025-09-03 17:48:48,109 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:48:52,977 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:48:52,978 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:48:56,369 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:48:56,388 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:48:56,393 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:48:56,433 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 17:48:58,289 - INFO - [User -> Bot 8297531173]: 10
+2025-09-03 17:48:58,291 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:48:58,477 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza bohemia 650ml = $106.00
+
+2025-09-03 17:48:58,477 - INFO - [WhatsApp -> 8297531173]: Precio total: 106.0
+2025-09-03 17:48:58,509 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:48:58,509 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:48:58,509 - INFO - Headers:
+2025-09-03 17:48:58,509 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:48:58,509 - INFO - Accept : application/json
+2025-09-03 17:48:58,509 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:48:58,509 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:48:58,509 - INFO - Accept-Charset : utf-8
+2025-09-03 17:48:58,509 - INFO - -- END Twilio API Request --
+2025-09-03 17:48:58,830 - INFO - Response Status Code: 429
+2025-09-03 17:48:58,831 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:48:58 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7090f3575bea49169b37b173269b62bc', 'Twilio-Request-Duration': '0.040', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 a2069a81b67055e10acf42b84d994730.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'ZdMscnq_bga5MXmz5cFJvR7L6h1NoWXAa38DCSKzZ4FNNZpv8ScSow==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:48:58,831 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:51:35,684 - INFO - Firebase connection initialized.
+2025-09-03 17:51:36,058 - INFO - Firebase connection initialized.
+2025-09-03 17:51:36,333 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:51:41,389 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:51:41,390 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:51:45,837 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:51:45,845 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:51:45,846 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:51:45,867 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 17:51:47,770 - INFO - [User -> Bot 8297531173]: 11
+2025-09-03 17:51:47,770 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:51:47,969 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza bohemia 355ml = $34.00
+
+2025-09-03 17:51:47,969 - INFO - [WhatsApp -> 8297531173]: Precio total: 34.0
+2025-09-03 17:51:48,001 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:51:48,001 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:51:48,001 - INFO - Headers:
+2025-09-03 17:51:48,001 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:51:48,001 - INFO - Accept : application/json
+2025-09-03 17:51:48,001 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:51:48,001 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:51:48,001 - INFO - Accept-Charset : utf-8
+2025-09-03 17:51:48,001 - INFO - -- END Twilio API Request --
+2025-09-03 17:51:48,427 - INFO - Response Status Code: 201
+2025-09-03 17:51:48,428 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '839', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:51:48 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ10d3769788cd01e2db9d63e21d5d862e', 'Twilio-Request-Duration': '0.102', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'HK019IdaScmc6UbG5r-VmzDobvasL0tI59ypdYK_X9UFaqGdLbs_Fg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:51:48,958 - INFO - Order saved successfully.
+2025-09-03 17:51:48,959 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 17:58:43,308 - INFO - Firebase connection initialized.
+2025-09-03 17:58:43,680 - INFO - Firebase connection initialized.
+2025-09-03 17:58:43,959 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 17:58:48,053 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 17:58:48,054 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 17:58:51,030 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 17:58:51,049 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 17:58:51,054 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:58:51,094 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 17:58:52,726 - INFO - [User -> Bot 8297531173]: 11
+2025-09-03 17:58:52,727 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 17:58:52,913 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza bohemia 355ml = $34.00
+
+2025-09-03 17:58:52,913 - INFO - [WhatsApp -> 8297531173]: Precio total: 34.0
+2025-09-03 17:58:52,945 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 17:58:52,945 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 17:58:52,945 - INFO - Headers:
+2025-09-03 17:58:52,945 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 17:58:52,945 - INFO - Accept : application/json
+2025-09-03 17:58:52,945 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 17:58:52,945 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 17:58:52,945 - INFO - Accept-Charset : utf-8
+2025-09-03 17:58:52,945 - INFO - -- END Twilio API Request --
+2025-09-03 17:58:53,320 - INFO - Response Status Code: 201
+2025-09-03 17:58:53,321 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '839', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 21:58:53 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQacfbacd79e3a86623ac7729ae3c47a25', 'Twilio-Request-Duration': '0.108', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 75ef39cd3599f31c54815f53ff9e4080.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'WqKe4pqCoCBAacwzBqL2e8_hIRU9xTCA2EPAAxJy7fE1J8TjlO9LyA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 17:58:53,897 - INFO - Order saved successfully.
+2025-09-03 17:58:53,897 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 18:02:56,635 - INFO - Firebase connection initialized.
+2025-09-03 18:02:57,003 - INFO - Firebase connection initialized.
+2025-09-03 18:02:57,281 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 18:03:02,981 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:03:02,981 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:03:12,373 - INFO - [User -> Bot 8297531173]: 1 cerveza
+2025-09-03 18:03:12,381 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-09-03 18:03:12,382 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:03:12,403 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'cerveza':
+1. cerveza one 650ml
+2. cerveza the one 8oz
+3. cerveza millers 10oz
+4. cerveza miller 355ml
+5. cerveza miller 650ml
+6. cerveza corona 207ml
+7. cerveza social 355ml
+8. cerveza modelo 630ml
+9. cerveza the one   355ml
+10. cerveza bohemia 650ml
+11. cerveza bohemia 355ml
+Por favor responde con el número correcto.
+2025-09-03 18:03:14,144 - INFO - [User -> Bot 8297531173]: 11
+2025-09-03 18:03:14,144 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:03:14,328 - INFO - [WhatsApp -> 8297531173]: 1 x cerveza bohemia 355ml = $34.00
+
+2025-09-03 18:03:14,328 - INFO - [WhatsApp -> 8297531173]: Precio total: 34.0
+2025-09-03 18:03:14,359 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 18:03:14,359 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 18:03:14,359 - INFO - Headers:
+2025-09-03 18:03:14,359 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 18:03:14,360 - INFO - Accept : application/json
+2025-09-03 18:03:14,360 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 18:03:14,360 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 18:03:14,360 - INFO - Accept-Charset : utf-8
+2025-09-03 18:03:14,360 - INFO - -- END Twilio API Request --
+2025-09-03 18:03:14,760 - INFO - Response Status Code: 429
+2025-09-03 18:03:14,761 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 22:03:14 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf170bf671c9f0b0e691e6bb73f255b22', 'Twilio-Request-Duration': '0.031', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 13dbe6c343cc70d0e7b81d29087791fe.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'XiD_rcUIYmI3ZLSBv6x2A5UEuFtdvOxLcpYel_lwNFQj4ZSrlY5PmQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 18:03:15,540 - INFO - Order saved successfully.
+2025-09-03 18:03:15,541 - INFO - [WhatsApp -> 8297531173]: Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).
+2025-09-03 18:09:32,920 - INFO - Firebase connection initialized.
+2025-09-03 18:09:33,299 - INFO - Firebase connection initialized.
+2025-09-03 18:09:33,589 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 18:09:52,320 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:09:52,321 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:09:56,913 - INFO - [User -> Bot 8297531173]: 1 aguacate
+2025-09-03 18:09:56,935 - INFO - Parsed order: [('1', 'aguacate')] from text: 1 aguacate
+2025-09-03 18:09:56,939 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:09:56,980 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'aguacate':
+1. aguacate
+2. agujas
+3. duracell aa
+Por favor responde con el número correcto.
+2025-09-03 18:09:59,648 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:09:59,649 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:09:59,826 - INFO - [WhatsApp -> 8297531173]: 1 x aguacate = $35.00
+
+2025-09-03 18:09:59,826 - INFO - [WhatsApp -> 8297531173]: Precio total: 35.0
+2025-09-03 18:09:59,857 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 18:09:59,858 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 18:09:59,858 - INFO - Headers:
+2025-09-03 18:09:59,858 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 18:09:59,858 - INFO - Accept : application/json
+2025-09-03 18:09:59,858 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 18:09:59,858 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 18:09:59,858 - INFO - Accept-Charset : utf-8
+2025-09-03 18:09:59,858 - INFO - -- END Twilio API Request --
+2025-09-03 18:10:00,220 - INFO - Response Status Code: 429
+2025-09-03 18:10:00,220 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 22:10:00 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa1da9ffc3d9969c0e21e3b33f492a847', 'Twilio-Request-Duration': '0.050', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 3b157d4f2f33f4fb5321169ef33618b0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'CBJvCX1UEWZMwnrgeJ-nNtVLIQVlwdSJVjqqY3J-J2ndatAE0cT-aQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 18:10:00,770 - INFO - Order saved successfully.
+2025-09-03 18:10:00,770 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:12:35,727 - INFO - Firebase connection initialized.
+2025-09-03 18:12:36,102 - INFO - Firebase connection initialized.
+2025-09-03 18:12:36,381 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 18:12:40,692 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:12:40,692 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:12:45,028 - INFO - [User -> Bot 8297531173]: 1 aguacate
+2025-09-03 18:12:45,036 - INFO - Parsed order: [('1', 'aguacate')] from text: 1 aguacate
+2025-09-03 18:12:45,037 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:12:45,060 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'aguacate':
+1. aguacate
+2. agujas
+3. duracell aa
+Por favor responde con el número correcto.
+2025-09-03 18:12:46,388 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:12:46,389 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:12:46,571 - INFO - [WhatsApp -> 8297531173]: 1 x aguacate = $35.00
+
+2025-09-03 18:12:46,571 - INFO - [WhatsApp -> 8297531173]: Precio total: 35.0
+2025-09-03 18:12:46,605 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 18:12:46,605 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 18:12:46,605 - INFO - Headers:
+2025-09-03 18:12:46,605 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 18:12:46,605 - INFO - Accept : application/json
+2025-09-03 18:12:46,605 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 18:12:46,605 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 18:12:46,605 - INFO - Accept-Charset : utf-8
+2025-09-03 18:12:46,605 - INFO - -- END Twilio API Request --
+2025-09-03 18:12:46,904 - INFO - Response Status Code: 201
+2025-09-03 18:12:46,904 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '826', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 22:12:46 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd062684c499be8962c7c4541ec077462', 'Twilio-Request-Duration': '0.090', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a05060f26fd3b70538b2c9e4b2ad4768.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'zyk8D55IIsvci7rS7pxKz_MRdtB1TwsF5nUwKojIEHDIgg57scVKOw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 18:12:47,658 - INFO - Order saved successfully.
+2025-09-03 18:12:47,658 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:13:11,474 - INFO - Firebase connection initialized.
+2025-09-03 18:13:11,848 - INFO - Firebase connection initialized.
+2025-09-03 18:13:12,126 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 18:13:16,788 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:13:16,789 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:13:22,116 - INFO - [User -> Bot 8297531173]: 1 winasorb
+2025-09-03 18:13:22,135 - INFO - Parsed order: [('1', 'winasorb')] from text: 1 winasorb
+2025-09-03 18:13:22,140 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:13:22,180 - INFO - [WhatsApp -> 8297531173]: He encontrado múltiples coincidencias para 'winasorb':
+1. sobre winasorb ultra
+2. sobre winasorb clasico
+Por favor responde con el número correcto.
+2025-09-03 18:13:24,133 - INFO - [User -> Bot 8297531173]: 1
+2025-09-03 18:13:24,134 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-09-03 18:13:24,317 - INFO - [WhatsApp -> 8297531173]: 1 x sobre winasorb ultra = $30.00
+
+2025-09-03 18:13:24,317 - INFO - [WhatsApp -> 8297531173]: Precio total: 30.0
+2025-09-03 18:13:24,348 - INFO - -- BEGIN Twilio API Request --
+2025-09-03 18:13:24,348 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-09-03 18:13:24,348 - INFO - Headers:
+2025-09-03 18:13:24,348 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-09-03 18:13:24,348 - INFO - Accept : application/json
+2025-09-03 18:13:24,348 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-09-03 18:13:24,348 - INFO - X-Twilio-Client : python-9.7.1
+2025-09-03 18:13:24,348 - INFO - Accept-Charset : utf-8
+2025-09-03 18:13:24,349 - INFO - -- END Twilio API Request --
+2025-09-03 18:13:24,654 - INFO - Response Status Code: 201
+2025-09-03 18:13:24,654 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '838', 'Connection': 'keep-alive', 'Date': 'Wed, 03 Sep 2025 22:13:24 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ32c474260c38bd9c3f847587411488bf', 'Twilio-Request-Duration': '0.088', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'AhM4fgkv88y76S6aP6mgnEYL2qDaq_U5hN5RLKVR4LrSISevtm9zKA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-09-03 18:13:25,341 - INFO - Order saved successfully.
+2025-09-03 18:13:25,342 - INFO - [WhatsApp -> 8297531173]: 📩 Cuál es tu pedido?
+2025-09-03 18:15:03,660 - INFO - Firebase connection initialized.
+2025-09-03 18:15:04,032 - INFO - Firebase connection initialized.
+2025-09-03 18:15:04,315 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 18:34:22,228 - INFO - Firebase connection initialized.
+2025-09-03 18:34:22,597 - INFO - Firebase connection initialized.
+2025-09-03 18:34:22,880 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:12:42,713 - INFO - Firebase connection initialized.
+2025-09-03 19:12:43,084 - INFO - Firebase connection initialized.
+2025-09-03 19:12:43,369 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:16:05,571 - INFO - Firebase connection initialized.
+2025-09-03 19:16:05,937 - INFO - Firebase connection initialized.
+2025-09-03 19:16:06,221 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:31:13,672 - INFO - Firebase connection initialized.
+2025-09-03 19:31:14,038 - INFO - Firebase connection initialized.
+2025-09-03 19:31:14,319 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:32:13,686 - INFO - Firebase connection initialized.
+2025-09-03 19:32:14,051 - INFO - Firebase connection initialized.
+2025-09-03 19:32:14,333 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:33:29,792 - INFO - Firebase connection initialized.
+2025-09-03 19:33:30,160 - INFO - Firebase connection initialized.
+2025-09-03 19:33:30,443 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:34:41,554 - INFO - Firebase connection initialized.
+2025-09-03 19:34:41,922 - INFO - Firebase connection initialized.
+2025-09-03 19:34:42,202 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:37:59,652 - INFO - Firebase connection initialized.
+2025-09-03 19:38:00,018 - INFO - Firebase connection initialized.
+2025-09-03 19:38:00,299 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:40:26,211 - INFO - Firebase connection initialized.
+2025-09-03 19:40:26,582 - INFO - Firebase connection initialized.
+2025-09-03 19:40:26,864 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:48:30,696 - INFO - Firebase connection initialized.
+2025-09-03 19:48:31,060 - INFO - Firebase connection initialized.
+2025-09-03 19:48:31,340 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:50:17,073 - INFO - Firebase connection initialized.
+2025-09-03 19:50:17,443 - INFO - Firebase connection initialized.
+2025-09-03 19:50:17,726 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:52:02,119 - INFO - Firebase connection initialized.
+2025-09-03 19:52:02,487 - INFO - Firebase connection initialized.
+2025-09-03 19:52:02,769 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:52:47,140 - INFO - Firebase connection initialized.
+2025-09-03 19:52:47,511 - INFO - Firebase connection initialized.
+2025-09-03 19:52:47,797 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:53:48,432 - INFO - Firebase connection initialized.
+2025-09-03 19:53:48,802 - INFO - Firebase connection initialized.
+2025-09-03 19:53:49,085 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-03 19:58:15,763 - INFO - Firebase connection initialized.
+2025-09-03 19:58:16,131 - INFO - Firebase connection initialized.
+2025-09-03 19:58:16,414 - INFO - Loaded NLP model from models/customer_order_qty_model
