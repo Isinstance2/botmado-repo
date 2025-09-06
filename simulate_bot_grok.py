@@ -1,8 +1,7 @@
 from app.utils import twilio_client
 from models.nlp import NLPModel
 from app.services.order_service import OrderProcessor
-from config.configuration_script import load_logging
-from config.configuration_script import user_confirmation
+from config.configuration_script import load_logging, user_confirmation, await_confirm, auto_confirm
 from app.utils.pos_machine import PosMachine
 
 
@@ -70,8 +69,7 @@ class WhatsAppSimulator:
     def handle_order(self, from_number: str, msg: str):
         self.fake_send_whatsapp(from_number, "📩 Cuál es tu pedido?")
         self.user_state[from_number] = self.AWAITING_ORDER
-               
-    
+                
     def contact_colmadero(self, from_number: str, msg: str) -> bool:    
         if msg == "2":
                 self.fake_send_whatsapp(from_number, "☎️ Conectando con el colmadero...")
@@ -128,7 +126,6 @@ class WhatsAppSimulator:
             # ask next product
             self.ask_confirmation(from_number)
 
-    # -----------------------
     # Simulator Core Logic
     # -----------------------
     def simulate_message(self, from_number: str, incoming_msg: str):
@@ -142,7 +139,7 @@ class WhatsAppSimulator:
         if self.user_state.get(from_number) == "awaiting_address":
             self.user_state_address[from_number] = msg
             self.handle_order(from_number, msg)
-            print("DEBUG - ADDRESS:",self.user_state_address[from_number])
+            self.logging.info(f"ADDRESS:,{self.user_state_address[from_number]}")
             return 
             
         
@@ -164,47 +161,18 @@ class WhatsAppSimulator:
                 return
             else:
                 # single match → auto-confirm & process
-                order_lst = [(line['qty'], line['matches'][0]) for line in order_lines if line['matches']]
-                msg_to_send, total = self.orderProcessor.price_lookup(order_lst)
-                self.fake_send_whatsapp(from_number, msg_to_send)
-                self.fake_send_whatsapp(from_number, f"Precio total: {total}")
-                self.orderProcessor.process_order(order_lst, from_number)
-                self.user_state[from_number] = None
-
-
+                auto_confirm(from_number, self.user_state, order_lines, self.orderProcessorer, self.fake_send_whatsapp)
         # Awaiting confirmation
-        if isinstance(self.user_state.get(from_number), dict) and \
-           self.user_state[from_number].get('status') == "awaiting_confirmation":
-
-            state = self.user_state[from_number]
-            line = state['order_lines'][state['current_index']]
-
-            try:
-                selected_index = int(msg.strip()) - 1
-                line['confirmed'] = line['matches'][selected_index]
-                state['current_index'] += 1
-                self.ask_next_or_finalize(from_number)
-
-                if self.user_state.get(from_number) is None:
-                    return
-            
-            except ValueError:
-                self.fake_send_whatsapp(from_number,
-                                        "Por favor, responde solo con el número correspondiente a tu elección.")
-            except IndexError:
-                self.fake_send_whatsapp(from_number,
-                                        "Ese número no corresponde a ninguna opción. Intenta de nuevo.")
+        await_confirm(from_number, self.user_state, msg, self.ask_next_or_finalize, self.fake_send_whatsapp)
 
         # handler options
         if self.display_handlers(from_number, msg):
             return
-
-        
+ 
         # Fallback
         self.fake_send_whatsapp(from_number,
                                 "Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).")
         return
-
     # Interactive Loop
     def run_interactive_simulation(self):
         print("=== WhatsApp Bot Interactive Simulation ===")

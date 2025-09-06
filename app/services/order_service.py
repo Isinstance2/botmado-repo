@@ -104,5 +104,5 @@ class OrderProcessor:
             return msg_to_send, all_prices
         
         except Exception as e:
-                print(f"Error matching order from text : {e}", flush=True)
+                print(f"Error matching order from text : {e}")
 

@@ -10,6 +10,7 @@ logging = load_logging(logfile="logs/invoices.log")
 class PosMachine:
     def __init__(self, idVendor="place_holder", idProduct="place_holder"):
         self.today = date.today().strftime("%Y-%m-%d")
+        self.time =  datetime.now().strftime("%H:%M:%S")
 
         try:
             self.printer = Usb(idVendor, idProduct)
@@ -36,7 +37,7 @@ class PosMachine:
                 "------------------------\n"
                 f"Codigo: {reference_num}\n"
                 f"Fecha: {self.today}\n"
-                f"Hora: {datetime.now().strftime("%H:%M:%S")}\n"
+                f"Hora: {self.time}\n"
                 ""
                 f"{msg_to_send}\n"
                 ""
@@ -51,7 +52,7 @@ class PosMachine:
             logging.info("Printed fake receipt successfully.")
 
             try:
-                file_location = f"data/invoices/{from_number}_{self.today}_factura.txt"
+                file_location = f"data/invoices/{from_number}_{self.today}_{self.time}_factura.txt"
                 with open(file_location, "w") as f:
                     for text in receipt:
                         f.write(text)
