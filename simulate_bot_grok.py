@@ -3,6 +3,7 @@ from models.nlp import NLPModel
 from app.services.order_service import OrderProcessor
 from config.configuration_script import load_logging
 from config.configuration_script import user_confirmation
+from app.utils.pos_machine import PosMachine
 
 
 
@@ -11,7 +12,9 @@ class WhatsAppSimulator:
         # Initialize core objects
         self.orderProcessor = OrderProcessor()
         self.nlp_model = NLPModel()
+        self.pos_machine = PosMachine()
         self.user_state = {}
+        self.user_state_address = {}
         self.CASUAL_RESPONSES = ["ok", "gracias", "dale", "perfecto"]
         self.greetings = ["hola", "hi", "hello", "buenas"]
         self.logging = load_logging("logs/simulator.log")
@@ -21,7 +24,7 @@ class WhatsAppSimulator:
         self.handlers = [
             self.handle_greetings,
             self.handle_menu,
-            self.handle_order,
+            self.handle_address,
             self.contact_colmadero,
             self.handle_casuals
         ]
@@ -57,13 +60,17 @@ class WhatsAppSimulator:
                 return True
         return False
     
-    def handle_order(self, from_number: str, msg: str) -> bool:
+    def handle_address(self, from_number: str, msg: str) -> bool:
         if msg == "1" and self.user_state.get(from_number) is None:
-                self.fake_send_whatsapp(from_number, "📩 Cuál es tu pedido?")
-                self.user_state[from_number] = self.AWAITING_ORDER
-                return True
-                
+            self.fake_send_whatsapp(from_number, "Por favor, Introduce to direccion.")
+            self.user_state[from_number] = "awaiting_address"
+            return True
         return False
+
+    def handle_order(self, from_number: str, msg: str):
+        self.fake_send_whatsapp(from_number, "📩 Cuál es tu pedido?")
+        self.user_state[from_number] = self.AWAITING_ORDER
+               
     
     def contact_colmadero(self, from_number: str, msg: str) -> bool:    
         if msg == "2":
@@ -115,6 +122,7 @@ class WhatsAppSimulator:
             self.orderProcessor.process_order(order_lst, from_number)
             self.user_state[from_number] = None
             self.fake_send_whatsapp(from_number, "✅ Pedido finalizado! Escribe 'MENU' para volver al inicio.")
+            self.pos_machine.print_fake_receipt(from_number, str(msg_to_send), total, self.user_state_address[from_number])
             return
         else:
             # ask next product
@@ -130,11 +138,19 @@ class WhatsAppSimulator:
         self.logging.info(f"[User -> Bot {from_number}]: {msg}")
         print(f"[User -> Bot {from_number}]: {msg}")
 
-
+        #order option
+        if self.user_state.get(from_number) == "awaiting_address":
+            self.user_state_address[from_number] = msg
+            self.handle_order(from_number, msg)
+            print("DEBUG - ADDRESS:",self.user_state_address[from_number])
+            return 
+            
+        
         # Awaiting order
-        if self.user_state.get(from_number) == self.AWAITING_ORDER:
+        if self.user_state.get(from_number) == self.AWAITING_ORDER:    
             nlp_response = self.nlp_model.parse_order(msg)
             order_lines = nlp_response.get("order_lines", [])
+
 
             if not order_lines:
                 self.fake_send_whatsapp(from_number,
@@ -154,6 +170,7 @@ class WhatsAppSimulator:
                 self.fake_send_whatsapp(from_number, f"Precio total: {total}")
                 self.orderProcessor.process_order(order_lst, from_number)
                 self.user_state[from_number] = None
+
 
         # Awaiting confirmation
         if isinstance(self.user_state.get(from_number), dict) and \

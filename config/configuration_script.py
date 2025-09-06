@@ -1,6 +1,8 @@
 from dotenv import load_dotenv
 import os
 import logging
+import random
+import string
 
 
 
@@ -41,6 +43,11 @@ def load_env(env_path:str, variable_name:str):
         return None
     
 
+def generate_order_id(length=8) -> str:
+        letters_and_digits = string.ascii_letters + string.digits
+        return ''.join(random.choice(letters_and_digits) for _ in range(length))
+    
+
 """ SIMULATOR CORE LOGIC HELPER"""
 
 def user_confirmation(from_number, user_state, nlp_response, order_lines, status="awaiting_confirmation") -> bool:
@@ -49,6 +56,7 @@ def user_confirmation(from_number, user_state, nlp_response, order_lines, status
             "status": status,
             "order_lines": order_lines,
             "current_index": 0
+              
         }
         
         return True

@@ -8212,3 +8212,117 @@ Por favor responde con el número correcto.
 2025-09-03 19:58:15,763 - INFO - Firebase connection initialized.
 2025-09-03 19:58:16,131 - INFO - Firebase connection initialized.
 2025-09-03 19:58:16,414 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:07:24,517 - INFO - Firebase connection initialized.
+2025-09-05 20:07:24,950 - INFO - Firebase connection initialized.
+2025-09-05 20:07:25,261 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:08:24,890 - INFO - Firebase connection initialized.
+2025-09-05 20:08:25,280 - INFO - Firebase connection initialized.
+2025-09-05 20:08:25,574 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:09:46,644 - INFO - Firebase connection initialized.
+2025-09-05 20:09:47,026 - INFO - Firebase connection initialized.
+2025-09-05 20:09:47,319 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:13:04,098 - INFO - Firebase connection initialized.
+2025-09-05 20:13:04,475 - INFO - Firebase connection initialized.
+2025-09-05 20:13:04,766 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:27:31,685 - INFO - Firebase connection initialized.
+2025-09-05 20:27:32,048 - INFO - Firebase connection initialized.
+2025-09-05 20:27:32,340 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:28:25,126 - INFO - Firebase connection initialized.
+2025-09-05 20:28:25,492 - INFO - Firebase connection initialized.
+2025-09-05 20:28:25,775 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:30:28,850 - INFO - Firebase connection initialized.
+2025-09-05 20:30:29,233 - INFO - Firebase connection initialized.
+2025-09-05 20:30:29,533 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:33:43,240 - INFO - Firebase connection initialized.
+2025-09-05 20:33:43,621 - INFO - Firebase connection initialized.
+2025-09-05 20:33:43,918 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:37:17,776 - INFO - Firebase connection initialized.
+2025-09-05 20:37:18,148 - INFO - Firebase connection initialized.
+2025-09-05 20:37:18,433 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:39:11,893 - INFO - Firebase connection initialized.
+2025-09-05 20:39:12,257 - INFO - Firebase connection initialized.
+2025-09-05 20:39:12,544 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:40:13,995 - INFO - Firebase connection initialized.
+2025-09-05 20:40:14,361 - INFO - Firebase connection initialized.
+2025-09-05 20:40:14,656 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:41:09,204 - INFO - Firebase connection initialized.
+2025-09-05 20:41:09,598 - INFO - Firebase connection initialized.
+2025-09-05 20:41:09,900 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:41:34,663 - INFO - Firebase connection initialized.
+2025-09-05 20:41:35,037 - INFO - Firebase connection initialized.
+2025-09-05 20:41:35,328 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:43:10,966 - INFO - Firebase connection initialized.
+2025-09-05 20:43:11,346 - INFO - Firebase connection initialized.
+2025-09-05 20:43:11,642 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:43:56,616 - INFO - Firebase connection initialized.
+2025-09-05 20:43:56,995 - INFO - Firebase connection initialized.
+2025-09-05 20:43:57,277 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:46:17,077 - INFO - Firebase connection initialized.
+2025-09-05 20:46:17,458 - INFO - Firebase connection initialized.
+2025-09-05 20:46:17,744 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:47:17,165 - INFO - Firebase connection initialized.
+2025-09-05 20:47:17,540 - INFO - Firebase connection initialized.
+2025-09-05 20:47:17,826 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:48:30,198 - INFO - Firebase connection initialized.
+2025-09-05 20:48:30,574 - INFO - Firebase connection initialized.
+2025-09-05 20:48:30,857 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:49:36,475 - INFO - Firebase connection initialized.
+2025-09-05 20:49:36,866 - INFO - Firebase connection initialized.
+2025-09-05 20:49:37,159 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:50:55,294 - INFO - Firebase connection initialized.
+2025-09-05 20:50:55,675 - INFO - Firebase connection initialized.
+2025-09-05 20:50:55,970 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:58:28,015 - INFO - Firebase connection initialized.
+2025-09-05 20:58:28,381 - INFO - Firebase connection initialized.
+2025-09-05 20:58:28,660 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 20:59:16,384 - INFO - Firebase connection initialized.
+2025-09-05 20:59:16,771 - INFO - Firebase connection initialized.
+2025-09-05 20:59:17,073 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:00:06,950 - INFO - Firebase connection initialized.
+2025-09-05 21:00:07,317 - INFO - Firebase connection initialized.
+2025-09-05 21:00:07,608 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:01:53,223 - INFO - Firebase connection initialized.
+2025-09-05 21:01:53,595 - INFO - Firebase connection initialized.
+2025-09-05 21:01:53,885 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:12:16,224 - INFO - Firebase connection initialized.
+2025-09-05 21:12:16,611 - INFO - Firebase connection initialized.
+2025-09-05 21:12:16,892 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:27:03,925 - INFO - Firebase connection initialized.
+2025-09-05 21:27:04,296 - INFO - Firebase connection initialized.
+2025-09-05 21:27:04,580 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:28:39,063 - INFO - Firebase connection initialized.
+2025-09-05 21:28:39,444 - INFO - Firebase connection initialized.
+2025-09-05 21:28:39,737 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:31:26,419 - INFO - Firebase connection initialized.
+2025-09-05 21:31:26,810 - INFO - Firebase connection initialized.
+2025-09-05 21:31:27,104 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:32:08,158 - INFO - Firebase connection initialized.
+2025-09-05 21:32:08,535 - INFO - Firebase connection initialized.
+2025-09-05 21:32:08,828 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:33:11,362 - INFO - Firebase connection initialized.
+2025-09-05 21:33:11,754 - INFO - Firebase connection initialized.
+2025-09-05 21:33:12,051 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:33:44,150 - INFO - Firebase connection initialized.
+2025-09-05 21:33:44,530 - INFO - Firebase connection initialized.
+2025-09-05 21:33:44,821 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:36:47,753 - INFO - Firebase connection initialized.
+2025-09-05 21:36:48,122 - INFO - Firebase connection initialized.
+2025-09-05 21:36:48,414 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 21:42:27,635 - INFO - Firebase connection initialized.
+2025-09-05 21:42:28,005 - INFO - Firebase connection initialized.
+2025-09-05 21:42:28,294 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 22:04:44,825 - INFO - Firebase connection initialized.
+2025-09-05 22:04:45,475 - INFO - Firebase connection initialized.
+2025-09-05 22:04:45,766 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 22:09:13,510 - INFO - Firebase connection initialized.
+2025-09-05 22:09:14,079 - INFO - Firebase connection initialized.
+2025-09-05 22:09:14,376 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 22:11:53,980 - INFO - Firebase connection initialized.
+2025-09-05 22:11:54,541 - INFO - Firebase connection initialized.
+2025-09-05 22:11:54,838 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 22:13:37,598 - INFO - Firebase connection initialized.
+2025-09-05 22:13:38,153 - INFO - Firebase connection initialized.
+2025-09-05 22:13:38,443 - INFO - Loaded NLP model from models/customer_order_qty_model
+2025-09-05 22:15:24,243 - INFO - Firebase connection initialized.
+2025-09-05 22:15:24,808 - INFO - Firebase connection initialized.
+2025-09-05 22:15:25,098 - INFO - Loaded NLP model from models/customer_order_qty_model
