@@ -28,6 +28,18 @@ class PosMachine:
         except Exception as e:
             logging.error(f"Error printing text: {e}")
 
+
+    def save_invoice(self, from_number, receipt):
+        try:
+                file_location = f"data/invoices/{from_number}_{self.today}_{self.time}_factura.txt"
+                with open(file_location, "w") as f:
+                    for text in receipt:
+                        f.write(text)
+                logging.info(f"receipt has been saved.file location: {file_location}")
+
+        except Exception as e:
+            logging.error(f"Couldn't save receipt: {e}")
+
     def print_fake_receipt(self, from_number, msg_to_send, total, address):
         try:
             reference_num =generate_order_id(length=5)
@@ -51,15 +63,7 @@ class PosMachine:
 
             logging.info("Printed fake receipt successfully.")
 
-            try:
-                file_location = f"data/invoices/{from_number}_{self.today}_{self.time}_factura.txt"
-                with open(file_location, "w") as f:
-                    for text in receipt:
-                        f.write(text)
-                logging.info(f"receipt has been saved.file location: {file_location}")
-
-            except Exception as e:
-                logging.error(f"Couldn't save receipt: {e}")
+            self.save_invoice(from_number, receipt)
 
         except Exception as e:
             logging.error(f"Error printing fake receipt: {e}")

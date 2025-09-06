@@ -107,6 +107,7 @@ class WhatsAppSimulator:
 
     def ask_next_or_finalize(self, from_number):
         state = self.user_state[from_number]
+        address = self.user_state_address.get(from_number)
         if state['current_index'] >= len(state['order_lines']):
             # all confirmed → process order
             order_lst = [(l['qty'], l['confirmed']) for l in state['order_lines']]
@@ -118,10 +119,9 @@ class WhatsAppSimulator:
             self.fake_send_whatsapp(from_number, msg_to_send)
             self.fake_send_whatsapp(from_number, f"Precio total: {total}")
             self.orderProcessor.process_order(order_lst, from_number)
-            self.user_state[from_number] = None
             self.fake_send_whatsapp(from_number, "✅ Pedido finalizado! Escribe 'MENU' para volver al inicio.")
-            self.pos_machine.print_fake_receipt(from_number, str(msg_to_send), total, self.user_state_address[from_number])
-            return
+            self.pos_machine.print_fake_receipt(from_number, str(msg_to_send), total, address)
+            self.user_state[from_number] = "order_finished"
         else:
             # ask next product
             self.ask_confirmation(from_number)
@@ -139,8 +139,9 @@ class WhatsAppSimulator:
         if self.user_state.get(from_number) == "awaiting_address":
             self.user_state_address[from_number] = msg
             self.handle_order(from_number, msg)
-            self.logging.info(f"ADDRESS:,{self.user_state_address[from_number]}")
+            self.logging.info(f"ADDRESS: {self.user_state_address[from_number]}")
             return 
+        
             
         
         # Awaiting order
@@ -168,7 +169,10 @@ class WhatsAppSimulator:
         # handler options
         if self.display_handlers(from_number, msg):
             return
- 
+        # Do not ask for address again
+        if self.user_state.get(from_number) == "order_finished":
+           return
+
         # Fallback
         self.fake_send_whatsapp(from_number,
                                 "Si quieres hacer un pedido, escribe 'MENU' o simplemente presiona (1).")

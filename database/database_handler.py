@@ -35,23 +35,21 @@ class DatabaseHandler:
             self.logging.info(f"Extracted {len(data)} docs from local DB '{collection_name}'.")
             return data
 
+        else:
 
-        """try:
-            
-            docs = self.db.collection(collection_name).stream()  # fetch docs
-            data = [
-                {**doc.to_dict(), "id": doc.id}
-                  for doc in docs
-              ]
-            self.logging.info(f"Extracted {len(data)} docs from '{collection_name}'.")
-            return data
-        except Exception as e:
-            self.logging.error(f"Error extracting collection '{collection_name}': {e}")
-            return []"""  
+            try:
+                
+                docs = self.db.collection(collection_name).stream()  # fetch docs
+                data = [
+                    {**doc.to_dict(), "id": doc.id}
+                    for doc in docs
+                ]
+                self.logging.info(f"Extracted {len(data)} docs from '{collection_name}'.")
+                return data
+            except Exception as e:
+                self.logging.error(f"Error extracting collection '{collection_name}': {e}")
+                return [] 
               
-        
-            
-
     def save_order(self, order_data: dict, collection_name='orders'):
         """Save an order to the 'orders' collection."""
         try:

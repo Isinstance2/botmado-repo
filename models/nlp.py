@@ -70,14 +70,44 @@ class NLPModel:
         trained_nlp = spacy.load(model_path)
         return trained_nlp
     
-    def parse_order(self, text: str):
-        order_lines = []
-        orders = []
+    def get_qty_items(self, entities, text):
+        lst = []
         temp_qty = None
-        msg_to_send = ""
-        matches = []
-        score_cutoff = 50
 
+        for value, label in entities:
+            if label == "QUANTITY":
+                temp_qty = value
+            elif label in ("PRODUCT", "ITEM") and temp_qty is not None:
+                # naive singularization
+                if value[-1].lower() == 's':
+                    value = value[:-1]
+                lst.append((temp_qty, value))
+                temp_qty = None
+
+        logging.info(f"Parsed order: {lst} from text: {text}")
+        return lst
+
+
+    def get_order_data(self, orders, detalle_list,score_cutoff=50) -> dict:
+        order_lines = []
+        for qty, prod in orders:
+            qty = (NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty))
+            matched_item = process.extract(prod, detalle_list, limit=20, scorer=fuzz.token_sort_ratio)
+            matched_items = [item for item, score in matched_item if score >= score_cutoff]
+            order_lines.append({
+                "qty": qty,
+                "original_product": prod,
+                "matches": matched_items if matched_items else [prod],
+                "confirmed": None
+            })  
+                
+        return {
+            "confirmation_needed": any(len(line['matches']) > 1 for line in order_lines),
+            "order_lines" : order_lines
+            
+        }
+
+    def parse_order(self, text: str):
         clean_msg = " ".join(text.split()).replace("\u200b", "").lower()
 
         try:
@@ -85,39 +115,14 @@ class NLPModel:
             entities = [(ent.text, ent.label_) for ent in doc.ents]
 
             # Parse quantities and products
-            for value, label in entities:
-                if label == "QUANTITY":
-                    temp_qty = value
-                elif label in ("PRODUCT", "ITEM") and temp_qty is not None:
-                    # naive singularization
-                    if value[-1].lower() == 's':
-                        value = value[:-1]
-                    orders.append((temp_qty, value))
-                    temp_qty = None
-
-            logging.info(f"Parsed order: {orders} from text: {text}")
+            orders = self.get_qty_items(entities, text)
 
             price_data = dbhandler.extract_collection("price_products") 
             price_lookup = {self.normalize_text(item['DETALLE']): item for item in price_data}  # dict lookup
             detalle_list = list(price_lookup.keys())
-            
         
-            for qty, prod in orders:
-                qty = (NUM_MAPPING.get(qty, 1) if isinstance(qty, str) else int(qty))
-                matched_item = process.extract(prod, detalle_list, limit=20, scorer=fuzz.token_sort_ratio)
-                matched_items = [item for item, score in matched_item if score >= score_cutoff]
-                order_lines.append({
-                    "qty": qty,
-                    "original_product": prod,
-                    "matches": matched_items if matched_items else [prod],
-                    "confirmed": None
-                })  
-                    
-            return {
-                "confirmation_needed": any(len(line['matches']) > 1 for line in order_lines),
-                "order_lines" : order_lines
-                
-            }
+            order_info = self.get_order_data(orders, detalle_list)
+            return order_info
 
         except Exception as e:
             logging.error(f"Error parsing order from text '{text}': {e}")

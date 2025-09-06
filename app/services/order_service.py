@@ -6,6 +6,7 @@ from datetime import date, datetime
 from models.nlp import NLPModel
 from fuzzywuzzy import process
 from data.train_data.nlp_train import NUM_MAPPING
+from config.configuration_script import load_logging
 
 class OrderProcessor:
     COLMADERO_NUMBER = "whatsapp:+18297531173"
@@ -14,35 +15,14 @@ class OrderProcessor:
         self.nlpmodel = NLPModel()
         self.dbHandler = DatabaseHandler()
         self.today = date.today().strftime("%Y-%m-%d")
+        self.logging = load_logging(logfile="logs/order_processor.log")
 
     @staticmethod
     def generate_order_id(length=8) -> str:
         letters_and_digits = string.ascii_letters + string.digits
         return ''.join(random.choice(letters_and_digits) for _ in range(length))
-
-    def process_order(self, message: str, user_number: str) -> str:
-        try:
-            #  Notify colmadero
-            order_text = f"Nuevo pedido de {user_number}: {message}"
-            if order_text:
-                print("Procesando orden:", order_text)
-                try:
-                    send_whatsapp(self.COLMADERO_NUMBER, order_text)
-                    print(f"Sent order notification to colmadero: {order_text}")
-                except Exception as e:
-                    print("Twilio send error to colmadero:", e)
-
-                conf_msg = ", ".join([f"{qty} x {prod}" for qty, prod in message])
-                # Confirm to customer
-                confirmation = f"✅ Pedido recibido: {(conf_msg)}\n Tu colmado está preparando tu orden."
-                try:
-                   # send_whatsapp(user_number, confirmation) ---removed to test simulation
-                    print(f"Sent confirmation to customer: {confirmation}")
-                except Exception as e:
-                    print("Twilio send error to customer:", e)
-                
-
-            # Save order to Firebase
+    
+    def order_to_firebase(self, user_number, message):
             reference_num = self.generate_order_id()
             order_data = {
                 'reference_num': reference_num,
@@ -54,12 +34,38 @@ class OrderProcessor:
             }
             try:
                 self.dbHandler.save_order(order_data)
-                print("Order saved in Firebase:", order_data)
+                self.logging.info(f"Order saved in Firebase: {order_data}")
             except Exception as e:
-                print("Firebase save error:", e)
+                self.logging.error(f"Firebase save error: {e}")
+        
+
+    def process_order(self, message: str, user_number: str) -> str:
+        try:
+            #  Notify colmadero
+            order_text = f"Nuevo pedido de {user_number}: {message}"
+            if order_text:
+                self.logging.info(f"Procesando orden: {order_text}")
+                try:
+                    send_whatsapp(self.COLMADERO_NUMBER, order_text)
+                    self.logging.info(f"Sent order notification to colmadero: {order_text}")
+                except Exception as e:
+                    self.logging.error(f"Twilio send error to colmadero: {e}")
+
+                conf_msg = ", ".join([f"{qty} x {prod}" for qty, prod in message])
+                # Confirm to customer
+                confirmation = f"✅ Pedido recibido: {(conf_msg)}\n Tu colmado está preparando tu orden."
+                try:
+                   # send_whatsapp(user_number, confirmation) ---removed to test simulation
+                    self.logging.info(f"Sent confirmation to customer: {confirmation}")
+                except Exception as e:
+                    self.logging.error(f"Twilio send error to customer: {e}")
+                
+
+            # Save order to Firebase
+            self.order_to_firebase(user_number, message)
 
         except Exception as e:
-            print("Unexpected error in process_order:", e)
+            self.logging.error(f"Unexpected error in process_order: {e}")
 
         # Twilio webhook expects a response
         return "OK"
@@ -104,5 +110,5 @@ class OrderProcessor:
             return msg_to_send, all_prices
         
         except Exception as e:
-                print(f"Error matching order from text : {e}")
+                self.logging.info(f"Error matching order from text : {e}")
 
