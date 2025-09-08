@@ -77,6 +77,8 @@ class PosMachine:
 
             self.save_invoice(from_number, receipt)
             self.save_collection(receipt_dict, collection_name="recibos")
+            logging.info("Invoice saved to Firebase.\n"
+                         f"{receipt_dict}")
 
         except Exception as e:
             logging.error(f"Error printing fake receipt: {e}")

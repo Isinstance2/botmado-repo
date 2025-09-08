@@ -2,22 +2,24 @@ import pandas as pd
 from config.configuration_script import load_env , load_logging
 import firebase_admin
 from firebase_admin import credentials, firestore
+import os
 
 
-
-
-
-FB_K = load_env(".env", "FB_K")
 
 
 class DatabaseHandler:
     def __init__(self):
-        self.cred =  credentials.Certificate(FB_K)
+        self.logging = load_logging()
+        self.FB_K = os.getenv("FB_K")
+
+        if not self.FB_K:
+            self.logging.warning("FB_K is missing!")
+
+        self.cred =  credentials.Certificate(self.FB_K)
         if not firebase_admin._apps:
             firebase_admin.initialize_app(self.cred)
 
         self.db = firestore.client()
-        self.logging = load_logging()
         self.logging.info("Firebase connection initialized.")
 
         price_database = pd.read_csv("data/prod_precios.csv")
