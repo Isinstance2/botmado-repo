@@ -2,7 +2,7 @@ import pandas as pd
 from config.configuration_script import load_env , load_logging
 import firebase_admin
 from firebase_admin import credentials, firestore
-import json
+
 
 
 
@@ -82,8 +82,6 @@ class DatabaseHandler:
             self.logging.info(f"Data saved to collection '{collection_name}'.")
         except Exception as e:
             self.logging.error(f"Error saving data to collection '{collection_name}': {e}")
-
-
 
 
 
