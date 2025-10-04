@@ -4,7 +4,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import os
 
-
+PROD_PRECIOS_DIR = os.getenv("PROD_PRECIOS_DIR")
 
 
 class DatabaseHandler:
@@ -22,7 +22,7 @@ class DatabaseHandler:
         self.db = firestore.client()
         self.logging.info("Firebase connection initialized.")
 
-        price_database = pd.read_csv("data/prod_precios.csv")
+        price_database = pd.read_csv(PROD_PRECIOS_DIR)
         self.price_db = price_database.to_dict(orient="records")
 
 

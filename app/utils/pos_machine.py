@@ -3,10 +3,11 @@ from config.configuration_script import load_env , load_logging
 from datetime import date, datetime
 from config.configuration_script import generate_order_id
 from database.database_handler import DatabaseHandler
+import os
 
 
 logging = load_logging(logfile="logs/invoices.log")
-
+INVOICES_DIR = os.getenv("INVOICES_DIR")
 
 class PosMachine:
     def __init__(self, idVendor="place_holder", idProduct="place_holder"):
@@ -34,7 +35,7 @@ class PosMachine:
 
     def save_invoice(self, from_number, receipt):
         try:
-            file_location = f"data/invoices/{from_number}_{self.today}_{self.time}_factura.txt"
+            file_location = f"{INVOICES_DIR}{from_number}_{self.today}_{self.time}_factura.txt"
             with open(file_location, "w") as f:
                 for text in receipt:
                     f.write(text)
