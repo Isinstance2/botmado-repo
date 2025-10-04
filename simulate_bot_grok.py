@@ -89,6 +89,7 @@ class WhatsAppSimulator:
         return False
     
     def ask_confirmation(self, from_number):
+
         """Confirmation / Order Flow"""
 
         state = self.user_state[from_number]
@@ -102,8 +103,18 @@ class WhatsAppSimulator:
             msg = f"He encontrado múltiples coincidencias para '{line['original_product']}':\n"
             for i, match in enumerate(line['matches'], 1):
                 msg += f"{i}. {match}\n"
-            msg += "Por favor responde con el número correcto."
+            msg += "Por favor responde con el número correcto. si no ves tu producto, escribe 'saltar'."
             self.fake_send_whatsapp(from_number, msg)
+
+    def saltar(self, from_number, msg):
+        if msg.lower() == "saltar":
+            state = self.user_state[from_number]
+            line = state['order_lines'][state['current_index']]
+            line['confirmed'] = "Producto no disponible"
+            state['current_index'] += 1
+            self.ask_next_or_finalize(from_number)
+            return True
+        return False
 
     def ask_next_or_finalize(self, from_number):
         state = self.user_state[from_number]
@@ -162,7 +173,7 @@ class WhatsAppSimulator:
                 return
             else:
                 # single match → auto-confirm & process
-                auto_confirm(from_number, self.user_state, order_lines, self.orderProcessorer, self.fake_send_whatsapp)
+                auto_confirm(from_number, self.user_state, order_lines, self.orderProcessor, self.fake_send_whatsapp)
         # Awaiting confirmation
         await_confirm(from_number, self.user_state, msg, self.ask_next_or_finalize, self.fake_send_whatsapp)
 
@@ -172,6 +183,9 @@ class WhatsAppSimulator:
         # Do not ask for address again
         if self.user_state.get(from_number) == "order_finished":
            return
+        
+        if self.saltar(from_number, msg):
+            return
 
         # Fallback
         self.fake_send_whatsapp(from_number,

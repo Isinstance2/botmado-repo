@@ -42,6 +42,16 @@ class TwilioWhatsAppHandler:
             return True
         return False
 
+    def saltar(self, from_number, msg):
+        if msg.lower() == "saltar":
+            state = self.user_state[from_number]
+            line = state['order_lines'][state['current_index']]
+            line['confirmed'] = "Producto no disponible"
+            state['current_index'] += 1
+            self.ask_next_or_finalize(from_number)
+            return True
+        return False
+
     def handle_address(self, from_number: str, msg: str) -> bool:
         if msg == "1" and self.user_state.get(from_number) is None:
             send_whatsapp(from_number, "Por favor, introduce tu dirección.")
@@ -151,6 +161,9 @@ class TwilioWhatsAppHandler:
         # Do not ask for address again
         if self.user_state.get(from_number) == "order_finished":
            return
+        
+        if self.saltar(from_number, msg):
+            return
 
         # Fallback
         send_whatsapp(from_number,
