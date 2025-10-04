@@ -16,7 +16,7 @@
 # Local environment variables
 .env
 
-# Data (ignore all, unless you want to keep small sample)
+# Data
 /data/config_data/
 /data/data_sample.py
 /data/invoices/
