@@ -8397,3 +8397,522 @@ Por favor responde con el número correcto.
 2025-09-07 20:23:25,262 - INFO - Firebase connection initialized.
 2025-09-07 20:23:25,828 - INFO - Firebase connection initialized.
 2025-09-07 20:23:26,151 - INFO - Firebase connection initialized.
+2025-10-04 12:38:19,818 - INFO - Firebase connection initialized.
+2025-10-04 12:40:05,472 - INFO - Firebase connection initialized.
+2025-10-04 12:40:06,085 - INFO - Firebase connection initialized.
+2025-10-04 12:40:06,449 - INFO - Firebase connection initialized.
+2025-10-04 12:40:18,967 - INFO - Firebase connection initialized.
+2025-10-04 12:40:19,519 - INFO - Firebase connection initialized.
+2025-10-04 12:40:19,881 - INFO - Firebase connection initialized.
+2025-10-04 12:40:28,551 - INFO - Firebase connection initialized.
+2025-10-04 12:40:29,112 - INFO - Firebase connection initialized.
+2025-10-04 12:40:29,479 - INFO - Firebase connection initialized.
+2025-10-04 12:48:06,219 - INFO - Firebase connection initialized.
+2025-10-04 12:48:06,771 - INFO - Firebase connection initialized.
+2025-10-04 12:48:07,132 - INFO - Firebase connection initialized.
+2025-10-04 12:51:04,392 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 12:51:04,392 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 12:51:04,392 - INFO - Headers:
+2025-10-04 12:51:04,392 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 12:51:04,392 - INFO - Accept : application/json
+2025-10-04 12:51:04,392 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 12:51:04,392 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 12:51:04,392 - INFO - Accept-Charset : utf-8
+2025-10-04 12:51:04,392 - INFO - -- END Twilio API Request --
+2025-10-04 12:51:04,666 - INFO - Response Status Code: 400
+2025-10-04 12:51:04,666 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 16:51:04 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa9525ae63e63c866442c36055d3336ca', 'Twilio-Request-Duration': '0.039', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 69320106282a517c291be6fd889fbe34.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'cTYaP-mC9xjuisbYdziXPCg5tx4o8Qix7bpBG1rJ0drXqaAn09ObCQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 12:56:35,212 - INFO - Firebase connection initialized.
+2025-10-04 12:56:35,777 - INFO - Firebase connection initialized.
+2025-10-04 12:56:36,141 - INFO - Firebase connection initialized.
+2025-10-04 12:56:46,559 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 12:56:46,559 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 12:56:46,559 - INFO - Headers:
+2025-10-04 12:56:46,559 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 12:56:46,559 - INFO - Accept : application/json
+2025-10-04 12:56:46,559 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 12:56:46,559 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 12:56:46,559 - INFO - Accept-Charset : utf-8
+2025-10-04 12:56:46,559 - INFO - -- END Twilio API Request --
+2025-10-04 12:56:46,839 - INFO - Response Status Code: 400
+2025-10-04 12:56:46,839 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 16:56:47 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2d332599993d0f0191a6da02309e5e0f', 'Twilio-Request-Duration': '0.037', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 7030d032beca12e9fcf25b7374b1d342.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'VnwBIGXYKALyx3o1GE6c6C7GBUvqwTiirVMh9kXgwwzCoNxP8OKcWw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 12:59:57,806 - INFO - Firebase connection initialized.
+2025-10-04 12:59:58,395 - INFO - Firebase connection initialized.
+2025-10-04 12:59:58,778 - INFO - Firebase connection initialized.
+2025-10-04 13:00:06,468 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:00:06,468 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:00:06,468 - INFO - Headers:
+2025-10-04 13:00:06,468 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:00:06,468 - INFO - Accept : application/json
+2025-10-04 13:00:06,468 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:00:06,468 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:00:06,468 - INFO - Accept-Charset : utf-8
+2025-10-04 13:00:06,468 - INFO - -- END Twilio API Request --
+2025-10-04 13:00:06,739 - INFO - Response Status Code: 400
+2025-10-04 13:00:06,739 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:00:06 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ11567b005adbf998b9647c0fbf7c6ac0', 'Twilio-Request-Duration': '0.024', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 a05060f26fd3b70538b2c9e4b2ad4768.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'AwQeFWEXNghcT3U0AVc8VW3tX3xFv2daoaEAIbN1wnji_WFEkEfmgQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:00:25,241 - INFO - Firebase connection initialized.
+2025-10-04 13:00:25,802 - INFO - Firebase connection initialized.
+2025-10-04 13:00:26,171 - INFO - Firebase connection initialized.
+2025-10-04 13:00:36,867 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:00:36,868 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:00:36,868 - INFO - Headers:
+2025-10-04 13:00:36,868 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:00:36,868 - INFO - Accept : application/json
+2025-10-04 13:00:36,868 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:00:36,868 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:00:36,868 - INFO - Accept-Charset : utf-8
+2025-10-04 13:00:36,868 - INFO - -- END Twilio API Request --
+2025-10-04 13:00:37,095 - INFO - Response Status Code: 400
+2025-10-04 13:00:37,095 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:00:37 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ583e82aab6e5b0ab85c216b1baae9c7a', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 75ef39cd3599f31c54815f53ff9e4080.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'ycbdfUNRKGyh2kmQPc9y-QFIN_CfSwPrKi5j0N0oOk8z8HlyEkshQA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:02:52,358 - INFO - Firebase connection initialized.
+2025-10-04 13:02:52,918 - INFO - Firebase connection initialized.
+2025-10-04 13:02:53,279 - INFO - Firebase connection initialized.
+2025-10-04 13:02:55,665 - INFO - Firebase connection initialized.
+2025-10-04 13:02:56,220 - INFO - Firebase connection initialized.
+2025-10-04 13:02:56,589 - INFO - Firebase connection initialized.
+2025-10-04 13:03:30,194 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:03:30,195 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:03:30,195 - INFO - Headers:
+2025-10-04 13:03:30,195 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:03:30,195 - INFO - Accept : application/json
+2025-10-04 13:03:30,195 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:03:30,195 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:03:30,195 - INFO - Accept-Charset : utf-8
+2025-10-04 13:03:30,195 - INFO - -- END Twilio API Request --
+2025-10-04 13:03:30,593 - INFO - Response Status Code: 400
+2025-10-04 13:03:30,593 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '162', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:03:30 GMT', 'X-Twilio-Error-Code': '21910', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2c60bdd9cf5a972d9d4d45cc934af008', 'Twilio-Request-Duration': '0.033', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 69320106282a517c291be6fd889fbe34.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'tMXJEVl2Zb6Lpa9CKJH1BUBJpFnwivZPCyAYW1lvT1U0jg_AfiQa-w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:11:25,107 - INFO - Firebase connection initialized.
+2025-10-04 13:11:25,669 - INFO - Firebase connection initialized.
+2025-10-04 13:11:26,036 - INFO - Firebase connection initialized.
+2025-10-04 13:11:31,983 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:11:31,983 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:11:31,983 - INFO - Headers:
+2025-10-04 13:11:31,983 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:11:31,983 - INFO - Accept : application/json
+2025-10-04 13:11:31,983 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:11:31,983 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:11:31,983 - INFO - Accept-Charset : utf-8
+2025-10-04 13:11:31,983 - INFO - -- END Twilio API Request --
+2025-10-04 13:11:32,374 - INFO - Response Status Code: 400
+2025-10-04 13:11:32,374 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '158', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:11:32 GMT', 'X-Twilio-Error-Code': '63007', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd5b7885c13cd0eb4b5775a022349ebdc', 'Twilio-Request-Duration': '0.076', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 53ae98bd96e103722064bbf80654a9c0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'bDq2ECcKA6fXxn2mhqU5CWcntB79OZrenDCUD_fK9z9mbaILdp7hMQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:12:06,703 - INFO - Firebase connection initialized.
+2025-10-04 13:12:07,259 - INFO - Firebase connection initialized.
+2025-10-04 13:12:07,622 - INFO - Firebase connection initialized.
+2025-10-04 13:13:47,834 - INFO - Firebase connection initialized.
+2025-10-04 13:13:48,414 - INFO - Firebase connection initialized.
+2025-10-04 13:13:48,778 - INFO - Firebase connection initialized.
+2025-10-04 13:13:54,445 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:13:54,445 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:13:54,445 - INFO - Headers:
+2025-10-04 13:13:54,445 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:13:54,445 - INFO - Accept : application/json
+2025-10-04 13:13:54,445 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:13:54,445 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:13:54,445 - INFO - Accept-Charset : utf-8
+2025-10-04 13:13:54,445 - INFO - -- END Twilio API Request --
+2025-10-04 13:13:54,750 - INFO - Response Status Code: 400
+2025-10-04 13:13:54,750 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '158', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:13:54 GMT', 'X-Twilio-Error-Code': '63007', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQbd19d10a02ada347df6e24fa8a70f679', 'Twilio-Request-Duration': '0.057', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 ed769d9f7e8f06199b47692e115648e2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '4of2AZagSzC6ZtiN30yHZzmziqSAGNetgNDkxwjhLE2ala_uBIAzaQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:15:52,630 - INFO - Firebase connection initialized.
+2025-10-04 13:15:53,192 - INFO - Firebase connection initialized.
+2025-10-04 13:15:53,564 - INFO - Firebase connection initialized.
+2025-10-04 13:16:10,679 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:16:10,679 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:16:10,680 - INFO - Headers:
+2025-10-04 13:16:10,680 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:16:10,680 - INFO - Accept : application/json
+2025-10-04 13:16:10,680 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:16:10,680 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:16:10,680 - INFO - Accept-Charset : utf-8
+2025-10-04 13:16:10,680 - INFO - -- END Twilio API Request --
+2025-10-04 13:16:10,978 - INFO - Response Status Code: 201
+2025-10-04 13:16:10,978 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '839', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:16:10 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfa212b017925603a5d02d98998ab9373', 'Twilio-Request-Duration': '0.081', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'eJNGpNXbv4WWPr3SN-5GwVVYXj_Gfnx2Ko8zwtKNU8ERTv5qsfppHg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:16:28,562 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:16:28,562 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:16:28,563 - INFO - Headers:
+2025-10-04 13:16:28,563 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:16:28,563 - INFO - Accept : application/json
+2025-10-04 13:16:28,563 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:16:28,563 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:16:28,563 - INFO - Accept-Charset : utf-8
+2025-10-04 13:16:28,563 - INFO - -- END Twilio API Request --
+2025-10-04 13:16:28,709 - INFO - Response Status Code: 201
+2025-10-04 13:16:28,709 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:16:28 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ40bcf062a7b516cf2817680ce8eb89f0', 'Twilio-Request-Duration': '0.083', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '2d-8BNzkMFqU6X43UNmfZCpD8w_dnzeHapEVwuymkm845gXKP377NQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:16:39,004 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:16:39,004 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:16:39,004 - INFO - Headers:
+2025-10-04 13:16:39,004 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:16:39,004 - INFO - Accept : application/json
+2025-10-04 13:16:39,004 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:16:39,004 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:16:39,004 - INFO - Accept-Charset : utf-8
+2025-10-04 13:16:39,004 - INFO - -- END Twilio API Request --
+2025-10-04 13:16:39,208 - INFO - Response Status Code: 201
+2025-10-04 13:16:39,209 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '817', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:16:39 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQea8535d26577750c09630df822af4b0a', 'Twilio-Request-Duration': '0.119', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'Md5SzPw6NJfwWtvU3ov2sxdmZsCqzFLGKOW9XKZG3uCm1K9gdBD_WA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:16:54,490 - INFO - Parsed order: [('1', 'cerveza'), ('dos', 'winasorb')] from text: 1 cerveza y dos winasorb
+2025-10-04 13:16:54,491 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-10-04 13:16:54,533 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:16:54,533 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:16:54,533 - INFO - Headers:
+2025-10-04 13:16:54,533 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:16:54,533 - INFO - Accept : application/json
+2025-10-04 13:16:54,533 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:16:54,533 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:16:54,533 - INFO - Accept-Charset : utf-8
+2025-10-04 13:16:54,533 - INFO - -- END Twilio API Request --
+2025-10-04 13:16:54,673 - INFO - Response Status Code: 201
+2025-10-04 13:16:54,673 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1166', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:16:54 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1cf8e704b8f185decd3c62cf50a3d02a', 'Twilio-Request-Duration': '0.078', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'PVn6nZpt1EWLgqCsZwdICHGAeHpy7AKG7a2O83_7ZBB1G8Cl0qVtAA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:02,657 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:02,657 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:02,658 - INFO - Headers:
+2025-10-04 13:17:02,658 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:02,658 - INFO - Accept : application/json
+2025-10-04 13:17:02,658 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:02,659 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:02,659 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:02,659 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:02,810 - INFO - Response Status Code: 201
+2025-10-04 13:17:02,810 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '941', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:02 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3c8e196ec98948f71a52478ac591e8f1', 'Twilio-Request-Duration': '0.091', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '5ccdI3OzaQd4nxJcziCaYkHefsd1C3TfyR1gV7zeBoFoHBzpmQaJsA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:02,811 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:02,811 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:02,811 - INFO - Headers:
+2025-10-04 13:17:02,811 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:02,811 - INFO - Accept : application/json
+2025-10-04 13:17:02,811 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:02,811 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:02,811 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:02,811 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:02,949 - INFO - Response Status Code: 201
+2025-10-04 13:17:02,949 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:02 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb8797559464d548542634f1710371e09', 'Twilio-Request-Duration': '0.076', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'zRPq4SN51MDgCeUF32DXVUk3a_TtLtx_uBqFkU7yyh95zPiCX1m6iA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:11,256 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:11,256 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:11,256 - INFO - Headers:
+2025-10-04 13:17:11,257 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:11,257 - INFO - Accept : application/json
+2025-10-04 13:17:11,257 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:11,257 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:11,257 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:11,257 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:11,404 - INFO - Response Status Code: 201
+2025-10-04 13:17:11,404 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '817', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:11 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ59d6eac5a5fda961b8dd73300c59cde0', 'Twilio-Request-Duration': '0.088', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '7wJhuCMNlldp_qk42yE0Tq7gLEzgloUVMi7Rd06JIiJziwZ7xxG1fQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:26,720 - INFO - Parsed order: [] from text: menu
+2025-10-04 13:17:26,720 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-10-04 13:17:26,720 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:26,720 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:26,720 - INFO - Headers:
+2025-10-04 13:17:26,720 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:26,721 - INFO - Accept : application/json
+2025-10-04 13:17:26,721 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:26,721 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:26,721 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:26,721 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:26,865 - INFO - Response Status Code: 201
+2025-10-04 13:17:26,866 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:26 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4041e5ae69c43c77bae502c08e2a403d', 'Twilio-Request-Duration': '0.084', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'ulMGGWSeReLpmrUwubArI_hr6-0rjEBhhjm2aWPAcQUKetx83ai_0g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:26,866 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:26,866 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:26,867 - INFO - Headers:
+2025-10-04 13:17:26,867 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:26,867 - INFO - Accept : application/json
+2025-10-04 13:17:26,867 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:26,867 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:26,868 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:26,868 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:27,024 - INFO - Response Status Code: 201
+2025-10-04 13:17:27,024 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '810', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:27 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ25076b8e960aed20643f6c5a4193681d', 'Twilio-Request-Duration': '0.083', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'nk3wx5oMGfbsEJpNy4L9nmRipQSWW7e83hCiPxsY3OpDZ6-YTSTC6Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:36,550 - INFO - Parsed order: [('1', 'cerveza')] from text: 1 cerveza
+2025-10-04 13:17:36,550 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-10-04 13:17:36,572 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:36,572 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:36,572 - INFO - Headers:
+2025-10-04 13:17:36,572 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:36,572 - INFO - Accept : application/json
+2025-10-04 13:17:36,572 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:36,572 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:36,572 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:36,572 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:36,750 - INFO - Response Status Code: 201
+2025-10-04 13:17:36,751 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1166', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:36 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ5ebf6673c452ec01efa2212ab85a9df0', 'Twilio-Request-Duration': '0.084', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '5TEPHj_ySD5VBZumjb9XfWOJiCPhzBi7wTyfH8XctbT1hm23yjJ13w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:41,055 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-10-04 13:17:41,248 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:41,248 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:41,248 - INFO - Headers:
+2025-10-04 13:17:41,248 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:41,248 - INFO - Accept : application/json
+2025-10-04 13:17:41,248 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:41,248 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:41,248 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:41,248 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:41,386 - INFO - Response Status Code: 201
+2025-10-04 13:17:41,386 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '814', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:41 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQee7499695e9bde46696bd4ed91fee57b', 'Twilio-Request-Duration': '0.076', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'B9m6Vhq81Y8sUIGnt0gZloigLbgfqoBo1lPw3X5ydumxVT68JWX9QA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:41,386 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:41,386 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:41,386 - INFO - Headers:
+2025-10-04 13:17:41,386 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:41,387 - INFO - Accept : application/json
+2025-10-04 13:17:41,387 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:41,387 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:41,387 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:41,387 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:41,562 - INFO - Response Status Code: 201
+2025-10-04 13:17:41,562 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '813', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:41 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQcead2fe16b2ec514dcab23fa2ccf38fb', 'Twilio-Request-Duration': '0.089', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'gOf2Ow11EVPsKTLOhVaSqaGo958BFGR1dGsHLGeIDg61lMmioO6-QA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:41,562 - INFO - Procesando orden: Nuevo pedido de +18297531173: [(1, 'cerveza one 650ml')]
+2025-10-04 13:17:41,562 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:41,562 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:41,562 - INFO - Headers:
+2025-10-04 13:17:41,563 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:41,563 - INFO - Accept : application/json
+2025-10-04 13:17:41,563 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:41,563 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:41,563 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:41,563 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:41,661 - INFO - Response Status Code: 400
+2025-10-04 13:17:41,661 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '161', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:41 GMT', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ164ac96afafab1e7fffdafc13d5bbc4b', 'Twilio-Request-Duration': '0.039', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '_3o1lf65a7nwEVynCbA7kx7Z2qT8swfLO43iF7r-HadPxLgB0TNJnw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:41,661 - INFO - Sent order notification to colmadero: Nuevo pedido de +18297531173: [(1, 'cerveza one 650ml')]
+2025-10-04 13:17:41,661 - INFO - Sent confirmation to customer: ✅ Pedido recibido: 1 x cerveza one 650ml
+ Tu colmado está preparando tu orden.
+2025-10-04 13:17:42,348 - INFO - Order saved successfully.
+2025-10-04 13:17:42,349 - INFO - Order saved in Firebase: {'reference_num': 'xUzcHglk', 'date': '2025-10-04', 'hora': '13:17:41', 'user_number': '+18297531173', 'message': '1 cerveza one 650ml', 'status': 'received'}
+2025-10-04 13:17:42,349 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:42,349 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:42,349 - INFO - Headers:
+2025-10-04 13:17:42,349 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:42,349 - INFO - Accept : application/json
+2025-10-04 13:17:42,349 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:42,349 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:42,349 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:42,349 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:42,492 - INFO - Response Status Code: 201
+2025-10-04 13:17:42,492 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '844', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:42 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfa8d7257409759ab5e1292e86237be41', 'Twilio-Request-Duration': '0.082', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '_d_A4nXIgfRpnQAYra5DNKsiGMpqc0uWRwRxZbaisM7q0fAJ1J5YWg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:17:42,492 - INFO - Printed fake receipt successfully.
+2025-10-04 13:17:42,493 - INFO - receipt has been saved.file location: data/invoices/+18297531173_2025-10-04_13:15:53_factura.txt
+2025-10-04 13:17:42,643 - INFO - Order saved successfully.
+2025-10-04 13:17:42,643 - INFO - Invoice saved to Firebase.
+{'codigo': 'yQfNE', 'fecha': '2025-10-04', 'hora': '13:15:53', 'orden': '1 x cerveza one 650ml', 'direccion': '1', 'total': '$101.0'}
+2025-10-04 13:17:42,643 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:17:42,643 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:17:42,643 - INFO - Headers:
+2025-10-04 13:17:42,643 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:17:42,643 - INFO - Accept : application/json
+2025-10-04 13:17:42,643 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:17:42,643 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:17:42,643 - INFO - Accept-Charset : utf-8
+2025-10-04 13:17:42,643 - INFO - -- END Twilio API Request --
+2025-10-04 13:17:42,784 - INFO - Response Status Code: 201
+2025-10-04 13:17:42,784 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:17:42 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ24caaf3de13a649127188cc0144529f2', 'Twilio-Request-Duration': '0.081', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'kOxKIMEJjWX_zFA_eYGEX8dJ_UHbEAVmTwrPi2Uj-PihuA29CbHutg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:23:15,664 - INFO - Firebase connection initialized.
+2025-10-04 13:23:16,223 - INFO - Firebase connection initialized.
+2025-10-04 13:23:16,591 - INFO - Firebase connection initialized.
+2025-10-04 13:23:21,095 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:23:21,095 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:23:21,095 - INFO - Headers:
+2025-10-04 13:23:21,095 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:23:21,095 - INFO - Accept : application/json
+2025-10-04 13:23:21,095 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:23:21,095 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:23:21,095 - INFO - Accept-Charset : utf-8
+2025-10-04 13:23:21,095 - INFO - -- END Twilio API Request --
+2025-10-04 13:23:21,452 - INFO - Response Status Code: 201
+2025-10-04 13:23:21,452 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '837', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:23:21 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3ba43000880ae824ee6d04a0e7938fc1', 'Twilio-Request-Duration': '0.116', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'eGfnivc57ydRu11oxhGHHycVgUkv7yacjX5EIY2HXCMF94oA6KWfVA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:23:26,388 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:23:26,388 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:23:26,388 - INFO - Headers:
+2025-10-04 13:23:26,388 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:23:26,388 - INFO - Accept : application/json
+2025-10-04 13:23:26,389 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:23:26,389 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:23:26,389 - INFO - Accept-Charset : utf-8
+2025-10-04 13:23:26,389 - INFO - -- END Twilio API Request --
+2025-10-04 13:23:26,542 - INFO - Response Status Code: 201
+2025-10-04 13:23:26,542 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:23:26 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4a83f11787afd68d3700710df6d8d81c', 'Twilio-Request-Duration': '0.096', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'FxJvu0mzvM9xavgHoQ1ezlmF_gvmrnQuXWAqx9pS4rThDZtBUwkIRw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:23:39,496 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:23:39,496 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:23:39,496 - INFO - Headers:
+2025-10-04 13:23:39,496 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:23:39,496 - INFO - Accept : application/json
+2025-10-04 13:23:39,496 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:23:39,496 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:23:39,496 - INFO - Accept-Charset : utf-8
+2025-10-04 13:23:39,496 - INFO - -- END Twilio API Request --
+2025-10-04 13:23:39,650 - INFO - Response Status Code: 201
+2025-10-04 13:23:39,651 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '817', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:23:39 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd8386a6afb03c93440b962e84ca55805', 'Twilio-Request-Duration': '0.095', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'FRg4TtcA-q1NlHnAOHOeGPGZNqWq_ySl0gbrH4RwqOtYoniIITbzqg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:23:56,603 - INFO - Parsed order: [('1', 'cerveza'), ('dos', 'winasorb')] from text: 1 cerveza y dos winasorb
+2025-10-04 13:23:56,604 - INFO - Extracted 865 docs from local DB 'price_products'.
+2025-10-04 13:23:56,646 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:23:56,646 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:23:56,646 - INFO - Headers:
+2025-10-04 13:23:56,646 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:23:56,646 - INFO - Accept : application/json
+2025-10-04 13:23:56,646 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:23:56,646 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:23:56,646 - INFO - Accept-Charset : utf-8
+2025-10-04 13:23:56,647 - INFO - -- END Twilio API Request --
+2025-10-04 13:23:56,788 - INFO - Response Status Code: 201
+2025-10-04 13:23:56,788 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1166', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:23:56 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQbf68b766532c7ca54bf79b37d2a9365c', 'Twilio-Request-Duration': '0.083', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'VzEAm0cgf21pVWXKqZ4WufqEmFNQVN4Ugw-991TQtzXqBiLd3sxqNA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:24:01,309 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:24:01,309 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:24:01,309 - INFO - Headers:
+2025-10-04 13:24:01,309 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:24:01,309 - INFO - Accept : application/json
+2025-10-04 13:24:01,309 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:24:01,310 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:24:01,310 - INFO - Accept-Charset : utf-8
+2025-10-04 13:24:01,310 - INFO - -- END Twilio API Request --
+2025-10-04 13:24:01,448 - INFO - Response Status Code: 201
+2025-10-04 13:24:01,449 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '941', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:24:01 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ755e0bb3c3cb59c6038c491a79a4db09', 'Twilio-Request-Duration': '0.081', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'h6zIGS4dLroRWMGcO_w0tuVpWBQ6P35piT9vZWTAP0TdPa9LW5SrUQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:24:01,449 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:24:01,450 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:24:01,450 - INFO - Headers:
+2025-10-04 13:24:01,450 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:24:01,450 - INFO - Accept : application/json
+2025-10-04 13:24:01,451 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:24:01,451 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:24:01,451 - INFO - Accept-Charset : utf-8
+2025-10-04 13:24:01,451 - INFO - -- END Twilio API Request --
+2025-10-04 13:24:01,615 - INFO - Response Status Code: 201
+2025-10-04 13:24:01,615 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:24:01 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6a48b7ba92da661fc486f5bb12431c79', 'Twilio-Request-Duration': '0.086', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f59a03d0f4a8c2acf12bbe8914ec4cce.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'hao0wTtXUjDhp8kzbZd9fy1K45VxH3QgtRfjBh1V8POhpUPnEfBgeQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:26:55,805 - INFO - Firebase connection initialized.
+2025-10-04 13:26:56,367 - INFO - Firebase connection initialized.
+2025-10-04 13:26:56,730 - INFO - Firebase connection initialized.
+2025-10-04 13:27:35,972 - INFO - Firebase connection initialized.
+2025-10-04 13:27:36,526 - INFO - Firebase connection initialized.
+2025-10-04 13:27:36,893 - INFO - Firebase connection initialized.
+2025-10-04 13:28:11,818 - INFO - Firebase connection initialized.
+2025-10-04 13:28:12,404 - INFO - Firebase connection initialized.
+2025-10-04 13:28:12,791 - INFO - Firebase connection initialized.
+2025-10-04 13:30:23,474 - INFO - Firebase connection initialized.
+2025-10-04 13:30:24,026 - INFO - Firebase connection initialized.
+2025-10-04 13:30:24,387 - INFO - Firebase connection initialized.
+2025-10-04 13:30:28,490 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:30:28,490 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:30:28,490 - INFO - Headers:
+2025-10-04 13:30:28,490 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:30:28,490 - INFO - Accept : application/json
+2025-10-04 13:30:28,490 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:30:28,490 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:30:28,490 - INFO - Accept-Charset : utf-8
+2025-10-04 13:30:28,490 - INFO - -- END Twilio API Request --
+2025-10-04 13:30:28,836 - INFO - Response Status Code: 201
+2025-10-04 13:30:28,836 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '859', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:30:28 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ411c0ce122e9e26c93662ab95bf46a1f', 'Twilio-Request-Duration': '0.099', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'pNcNMsKott1D3po5qniUTDlwCcCjb7THsnPASaKgjmLRpSDlB4Rl6A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:30:33,678 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:30:33,678 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:30:33,678 - INFO - Headers:
+2025-10-04 13:30:33,678 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:30:33,678 - INFO - Accept : application/json
+2025-10-04 13:30:33,678 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:30:33,679 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:30:33,679 - INFO - Accept-Charset : utf-8
+2025-10-04 13:30:33,679 - INFO - -- END Twilio API Request --
+2025-10-04 13:30:33,820 - INFO - Response Status Code: 201
+2025-10-04 13:30:33,820 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '837', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:30:33 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfc25a9cf26f8dbb438170f0fa5d54530', 'Twilio-Request-Duration': '0.083', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'RmKIP5GJoT9Gpe3HEh3JkQK8c0V4-Q4YefJMumIn-Kqb2fcxrXMG2Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:30:44,183 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:30:44,183 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:30:44,183 - INFO - Headers:
+2025-10-04 13:30:44,183 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:30:44,183 - INFO - Accept : application/json
+2025-10-04 13:30:44,183 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:30:44,183 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:30:44,184 - INFO - Accept-Charset : utf-8
+2025-10-04 13:30:44,184 - INFO - -- END Twilio API Request --
+2025-10-04 13:30:44,275 - INFO - Response Status Code: 429
+2025-10-04 13:30:44,276 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:30:44 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ078286d96349f8c0810aea39fc9eed28', 'Twilio-Request-Duration': '0.035', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'xShfWSW9YVIp-MvtMv-ziUFVn64XQ760mkQE780u2nInf5DkCe_lZg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:30:57,841 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:30:57,841 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:30:57,841 - INFO - Headers:
+2025-10-04 13:30:57,841 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:30:57,841 - INFO - Accept : application/json
+2025-10-04 13:30:57,841 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:30:57,841 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:30:57,842 - INFO - Accept-Charset : utf-8
+2025-10-04 13:30:57,842 - INFO - -- END Twilio API Request --
+2025-10-04 13:30:57,986 - INFO - Response Status Code: 201
+2025-10-04 13:30:57,986 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '859', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:30:57 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc6e2053b171cbf0596ebe267b02cbf03', 'Twilio-Request-Duration': '0.087', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'dmhwjGVj9WoSpzyL9sEgBVyZ7vFzy69qg23blmhu_F2TSFrpP_ilHg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:31:03,554 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 13:31:03,555 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 13:31:03,555 - INFO - Headers:
+2025-10-04 13:31:03,555 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 13:31:03,555 - INFO - Accept : application/json
+2025-10-04 13:31:03,555 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 13:31:03,555 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 13:31:03,555 - INFO - Accept-Charset : utf-8
+2025-10-04 13:31:03,555 - INFO - -- END Twilio API Request --
+2025-10-04 13:31:03,693 - INFO - Response Status Code: 201
+2025-10-04 13:31:03,693 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '837', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 17:31:03 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ885206dd867da1c0689d1ece8c2b63d7', 'Twilio-Request-Duration': '0.080', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e34ad885119aee16bd060a3347a9e278.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'MpK3EpKJe4RdzhrwRfeTattjBT_MT4wG-RTHDY4ANbYUIAZ58PzNXw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 13:31:23,538 - INFO - Firebase connection initialized.
+2025-10-04 13:31:24,093 - INFO - Firebase connection initialized.
+2025-10-04 13:31:24,460 - INFO - Firebase connection initialized.
+2025-10-04 17:25:40,238 - INFO - Firebase connection initialized.
+2025-10-04 17:25:40,799 - INFO - Firebase connection initialized.
+2025-10-04 17:25:41,167 - INFO - Firebase connection initialized.
+2025-10-04 17:27:37,103 - INFO - Firebase connection initialized.
+2025-10-04 17:27:37,668 - INFO - Firebase connection initialized.
+2025-10-04 17:27:38,040 - INFO - Firebase connection initialized.
+2025-10-04 17:27:45,067 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:27:45,067 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:27:45,067 - INFO - Headers:
+2025-10-04 17:27:45,067 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:27:45,067 - INFO - Accept : application/json
+2025-10-04 17:27:45,067 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:27:45,067 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:27:45,067 - INFO - Accept-Charset : utf-8
+2025-10-04 17:27:45,067 - INFO - -- END Twilio API Request --
+2025-10-04 17:27:45,344 - INFO - Response Status Code: 201
+2025-10-04 17:27:45,344 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '859', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:27:45 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQaf33493cf7f42214d6867be7545d7a88', 'Twilio-Request-Duration': '0.098', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'dzVGgMuNEYed5c6MxSX8fQ9xAJdQ71MvU_G0s6oGn0YvWoVoxxpryg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:27:53,731 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:27:53,731 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:27:53,731 - INFO - Headers:
+2025-10-04 17:27:53,731 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:27:53,731 - INFO - Accept : application/json
+2025-10-04 17:27:53,731 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:27:53,731 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:27:53,731 - INFO - Accept-Charset : utf-8
+2025-10-04 17:27:53,731 - INFO - -- END Twilio API Request --
+2025-10-04 17:27:53,934 - INFO - Response Status Code: 201
+2025-10-04 17:27:53,934 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '820', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:27:53 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3bd802e8127cf064329383034f81a0db', 'Twilio-Request-Duration': '0.111', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'd8-tncGmD4TnqljVwpceXEZg5CC-A8tlK8GoywDwgESQQpscQL9Cew==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:28:02,334 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:28:02,334 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:28:02,334 - INFO - Headers:
+2025-10-04 17:28:02,334 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:28:02,334 - INFO - Accept : application/json
+2025-10-04 17:28:02,334 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:28:02,334 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:28:02,335 - INFO - Accept-Charset : utf-8
+2025-10-04 17:28:02,335 - INFO - -- END Twilio API Request --
+2025-10-04 17:28:02,456 - INFO - Response Status Code: 429
+2025-10-04 17:28:02,457 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:28:02 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQba203adb5520fb92c870d8bc2ca131c5', 'Twilio-Request-Duration': '0.064', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': '0_xqA6yRkXuWVdJh9XEabO4RmTjZKbbqzQnvz0mLqOhjkSE0tu74Qw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:28:49,236 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:28:49,236 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:28:49,237 - INFO - Headers:
+2025-10-04 17:28:49,237 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:28:49,237 - INFO - Accept : application/json
+2025-10-04 17:28:49,237 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:28:49,237 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:28:49,237 - INFO - Accept-Charset : utf-8
+2025-10-04 17:28:49,237 - INFO - -- END Twilio API Request --
+2025-10-04 17:28:49,319 - INFO - Response Status Code: 429
+2025-10-04 17:28:49,319 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:28:49 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ04847132ec14c2821e35f13b620738a6', 'Twilio-Request-Duration': '0.025', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 725db4465d11d49dfaed666d9418246c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'CxA1nBRRthB6xVVZAJz13aK0kTV9yq0Z03Ky77mWUA_qBynLeqJ_gA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:30:10,706 - INFO - Firebase connection initialized.
+2025-10-04 17:30:11,264 - INFO - Firebase connection initialized.
+2025-10-04 17:30:11,629 - INFO - Firebase connection initialized.
+2025-10-04 17:30:34,342 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:30:34,342 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:30:34,342 - INFO - Headers:
+2025-10-04 17:30:34,342 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:30:34,342 - INFO - Accept : application/json
+2025-10-04 17:30:34,342 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:30:34,342 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:30:34,342 - INFO - Accept-Charset : utf-8
+2025-10-04 17:30:34,342 - INFO - -- END Twilio API Request --
+2025-10-04 17:30:34,636 - INFO - Response Status Code: 201
+2025-10-04 17:30:34,637 - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '851', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:30:34 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8621e7888cff90c9d33d303f5f9904bc', 'Twilio-Request-Duration': '0.085', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'is33SBdR9yIXGTJxugerCLjMA4t0OHgsDwm0cQ4paqRg2t7zhWHM3g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:30:45,883 - INFO - -- BEGIN Twilio API Request --
+2025-10-04 17:30:45,883 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACf37f39a297f19e9ef43a7d1bfca940bb/Messages.json
+2025-10-04 17:30:45,883 - INFO - Headers:
+2025-10-04 17:30:45,884 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-04 17:30:45,884 - INFO - Accept : application/json
+2025-10-04 17:30:45,884 - INFO - User-Agent : twilio-python/9.7.1 (Linux x86_64) Python/3.12.3
+2025-10-04 17:30:45,884 - INFO - X-Twilio-Client : python-9.7.1
+2025-10-04 17:30:45,885 - INFO - Accept-Charset : utf-8
+2025-10-04 17:30:45,885 - INFO - -- END Twilio API Request --
+2025-10-04 17:30:45,980 - INFO - Response Status Code: 429
+2025-10-04 17:30:45,980 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Sat, 04 Oct 2025 21:30:45 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3a729398195e88a8a50b9859d89ab107', 'Twilio-Request-Duration': '0.032', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 5b870fa5028c932fd8e177b7122de482.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'ATL59-P14', 'X-Amz-Cf-Id': 'EnNOPhGw-UUBrTnyU8H75BzEkWmZHrvKAE8wCcNGWl-yg3cnr1p2pg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-04 17:38:58,056 - INFO - Firebase connection initialized.
+2025-10-04 17:38:58,623 - INFO - Firebase connection initialized.
+2025-10-04 17:38:58,949 - INFO - Firebase connection initialized.
